@@ -208,11 +208,12 @@ async function runScraping() {
       anime.plataformas = dadosInternos.plataformas;
       delete anime.title_provisorio;
 
-      // PASSO 3: Baixar a imagem[cite: 1]
+      // PASSO 3: Baixar a imagem
       let urlImagem = anime.image_url;
       if (urlImagem) {
-        if (urlImagem.startsWith("/"))
+        if (urlImagem.startsWith("/")) {
           urlImagem = `https://www.aniquim.com.br${urlImagem}`;
+        }
 
         const nomeBase =
           anime.titulo_en || anime.titulo || "imagem_desconhecida";
@@ -223,7 +224,12 @@ async function runScraping() {
         );
         const absoluteImgPath = path.resolve("public", relativeImgPath);
 
-        await downloadImagem(urlImagem, absoluteImgPath);
+        // Verifica se a imagem JÁ EXISTE na pasta antes de baixar
+        if (!fs.existsSync(absoluteImgPath)) {
+          console.log(`  -> Baixando nova imagem: ${nomeArquivo}.jpg`);
+          await downloadImagem(urlImagem, absoluteImgPath);
+        }
+
         anime.local_image_path = relativeImgPath;
       }
     }
