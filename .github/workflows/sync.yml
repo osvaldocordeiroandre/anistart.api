@@ -1,0 +1,30 @@
+name: Scraping Programacao
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 */3 * * *" # Roda a cada 3 horas (Ajuste conforme a necessidade de carga no servidor deles)
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20 # Utiliza a versão que permite fetch nativo para imagens
+
+      - run: npm install puppeteer # Garante que o pacote esteja instalado na action
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run Scraping Script
+        run: node scraping.js # Substitua pelo caminho onde você salvou o script JS acima
