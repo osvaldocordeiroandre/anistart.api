@@ -17,9 +17,10 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20 # Utiliza a versão que permite fetch nativo para imagens
+          node-version: 22 # puppeteer 25 exige Node >= 22.12
+          cache: npm
 
-      - run: npm install puppeteer # Garante que o pacote esteja instalado na action
+      - run: npm ci # Instala as dependências exatas do package-lock (inclui o Chrome do puppeteer)
 
       - name: Configure Git
         run: |
@@ -27,4 +28,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Run Scraping Script
-        run: node scraping.js # Substitua pelo caminho onde você salvou o script JS acima
+        env:
+          TZ: America/Sao_Paulo
+        run: node scraping.js

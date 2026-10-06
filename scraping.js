@@ -7,6 +7,15 @@ const JSON_FILE = path.resolve("public/Schedule.json");
 const IMAGES_DIR = path.resolve("public/imagens_animes");
 const VERCEL_SYNC_FILE = path.resolve(".vercel-sync-scraping");
 
+// O Cloudflare do aniquim bloqueia:
+//  - o User-Agent "HeadlessChrome" padrão do Puppeteer
+//  - o fetch do Node (pela "impressão digital" TLS), mesmo com User-Agent de navegador
+//  - a sessão inteira depois que o JS do Cloudflare roda e detecta o headless (cookie cf_clearance)
+// Por isso: User-Agent de navegador, JavaScript desativado (o site já vem renderizado do servidor)
+// e imagens baixadas pelo próprio Chrome.
+const USER_AGENT =
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36";
+
 // ==========================================
 // 0. FUNÇÕES AUXILIARES
 // ==========================================
@@ -20,13 +29,20 @@ const delay = (min, max) => {
   return new Promise((resolve) => setTimeout(resolve, ms));
 };
 
-async function downloadImagem(url, filepath) {
+// Baixa usando o fetch de dentro da página (TLS do Chrome) e devolve em base64
+async function downloadImagem(page, url, filepath) {
   try {
-    const response = await fetch(url);
-    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-    const arrayBuffer = await response.arrayBuffer();
-    const buffer = Buffer.from(arrayBuffer);
-    fs.writeFileSync(filepath, buffer);
+    const { status, base64 } = await page.evaluate(async (u) => {
+      const response = await fetch(u);
+      const bytes = new Uint8Array(await response.arrayBuffer());
+      let binario = "";
+      for (let i = 0; i < bytes.length; i += 0x8000) {
+        binario += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
+      }
+      return { status: response.status, base64: btoa(binario) };
+    }, url);
+    if (status !== 200) throw new Error(`HTTP error! status: ${status}`);
+    fs.writeFileSync(filepath, Buffer.from(base64, "base64"));
   } catch (e) {
     console.error(`  -> Erro ao baixar imagem: ${e.message}`);
   }
@@ -48,12 +64,20 @@ async function runScraping() {
 
   const page = await browser.newPage();
   page.setDefaultNavigationTimeout(60000);
+  await page.setUserAgent(USER_AGENT);
+  await page.setExtraHTTPHeaders({
+    "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
+  });
+  await page.setJavaScriptEnabled(false);
 
   const urlPrincipal = "https://www.aniquim.com.br/animes/programacao";
   console.log(`Acessando página principal: ${urlPrincipal}`);
 
   await page.goto(urlPrincipal, { waitUntil: "domcontentloaded" });
   await delay(5, 7); // Pausa aleatória igual ao Python[cite: 1]
+
+  const tituloPagina = await page.title();
+  console.log(`Título da página: ${tituloPagina}`);
 
   // PASSO 1: Extrair e agrupar os cartões[cite: 1]
   // PASSO 1: Extrair e agrupar os cartões
@@ -155,6 +179,28 @@ async function runScraping() {
   );
   console.log(`Encontrados ${totalAnimes} animes agrupados por dia.`);
 
+  // Se veio bloqueado (Cloudflare) ou o layout mudou, aborta sem tocar no JSON
+  if (totalAnimes === 0) {
+    await browser.close();
+    throw new Error(
+      `Nenhum anime encontrado (título da página: "${tituloPagina}"). Possível bloqueio do Cloudflare.`,
+    );
+  }
+
+  // Lê o JSON atual para reaproveitar dados caso alguma página interna falhe
+  let jsonExistente = { schedule: {} };
+  if (fs.existsSync(JSON_FILE)) {
+    try {
+      jsonExistente = JSON.parse(fs.readFileSync(JSON_FILE, "utf8"));
+    } catch (e) {
+      console.error("Erro ao ler JSON existente, criando um novo.", e.message);
+    }
+  }
+  const antigosPorPagina = new Map();
+  Object.values(jsonExistente.schedule || {})
+    .flat()
+    .forEach((a) => a.page && antigosPorPagina.set(a.page, a));
+
   // PASSO 2: Iterar sobre os dias e os animes[cite: 1]
   for (const [dia, animes] of Object.entries(schedule)) {
     console.log(`\n--- Processando animes de ${dia} ---`);
@@ -210,10 +256,18 @@ async function runScraping() {
         return { titulo, titulo_en, titulo_jp, plataformas };
       });
 
-      anime.titulo = dadosInternos.titulo;
-      anime.titulo_en = dadosInternos.titulo_en;
-      anime.titulo_jp = dadosInternos.titulo_jp;
-      anime.plataformas = dadosInternos.plataformas;
+      const antigo = antigosPorPagina.get(anime.page) || {};
+      if (!dadosInternos.titulo_en && !dadosInternos.titulo) {
+        console.warn(
+          `  -> Página interna sem dados (${await page.title()}), reaproveitando dados antigos.`,
+        );
+      }
+      anime.titulo = dadosInternos.titulo || antigo.titulo || anime.title_provisorio;
+      anime.titulo_en = dadosInternos.titulo_en || antigo.titulo_en || null;
+      anime.titulo_jp = dadosInternos.titulo_jp || antigo.titulo_jp || null;
+      anime.plataformas = dadosInternos.plataformas.length
+        ? dadosInternos.plataformas
+        : antigo.plataformas || [];
       delete anime.title_provisorio;
 
       // PASSO 3: Baixar a imagem
@@ -226,16 +280,14 @@ async function runScraping() {
         const nomeBase =
           anime.titulo_en || anime.titulo || "imagem_desconhecida";
         const nomeArquivo = limparNomeArquivo(nomeBase);
-        const relativeImgPath = path.join(
-          "imagens_animes",
-          `${nomeArquivo}.jpg`,
-        );
-        const absoluteImgPath = path.resolve("public", relativeImgPath);
+        // Mantém o separador "\" que o app já consome (gerado pela versão Python no Windows)
+        const relativeImgPath = "imagens_animes\\" + nomeArquivo + ".jpg";
+        const absoluteImgPath = path.join(IMAGES_DIR, `${nomeArquivo}.jpg`);
 
         // Verifica se a imagem JÁ EXISTE na pasta antes de baixar
         if (!fs.existsSync(absoluteImgPath)) {
           console.log(`  -> Baixando nova imagem: ${nomeArquivo}.jpg`);
-          await downloadImagem(urlImagem, absoluteImgPath);
+          await downloadImagem(page, urlImagem, absoluteImgPath);
         }
 
         anime.local_image_path = relativeImgPath;
@@ -245,47 +297,11 @@ async function runScraping() {
 
   await browser.close();
 
-  // PASSO 4: Ler o histórico e fazer MERGE dos dados
-  let jsonExistente = { schedule: {} };
-
-  // Lê o JSON atual para não perder os dados antigos (como no sync-animes.js)
-  if (fs.existsSync(JSON_FILE)) {
-    try {
-      jsonExistente = JSON.parse(fs.readFileSync(JSON_FILE, "utf8"));
-    } catch (e) {
-      console.error("Erro ao ler JSON existente, criando um novo.", e.message);
-    }
-  }
-
-  // Compara e mescla os dados extraídos com os dados salvos
-  for (const [dia, animesNovos] of Object.entries(schedule)) {
-    if (!jsonExistente.schedule[dia]) {
-      jsonExistente.schedule[dia] = [];
-    }
-
-    for (const animeNovo of animesNovos) {
-      // Busca o anime no banco existente pelo título (em inglês ou normal)
-      const index = jsonExistente.schedule[dia].findIndex(
-        (a) =>
-          a.titulo_en === animeNovo.titulo_en || a.titulo === animeNovo.titulo,
-      );
-
-      if (index !== -1) {
-        // Se já existe, atualiza os dados preservando informações antigas
-        jsonExistente.schedule[dia][index] = {
-          ...jsonExistente.schedule[dia][index],
-          ...animeNovo,
-        };
-      } else {
-        // Se é um anime novo no dia, adiciona na lista
-        jsonExistente.schedule[dia].push(animeNovo);
-      }
-    }
-  }
-
+  // PASSO 4: Substitui a programação inteira (igual à versão Python).
+  // O merge antigo nunca removia animes que saíram da grade nem os que mudaram de dia.
   const resultadoFinal = {
     updatedAt: new Date().toISOString(),
-    schedule: jsonExistente.schedule,
+    schedule,
   };
 
   if (!fs.existsSync(path.dirname(JSON_FILE)))
@@ -323,7 +339,11 @@ async function main() {
     console.log("🚀 Dados de scraping sincronizados e commitados no GitHub!");
   } catch (error) {
     console.error("Erro ao fazer commit/push do scraping:", error.message);
+    process.exitCode = 1;
   }
 }
 
-main().catch(console.error);
+main().catch((err) => {
+  console.error(err);
+  process.exit(1); // Faz o GitHub Actions marcar a execução como falha
+});
