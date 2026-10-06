@@ -7,6 +7,10 @@ const JSON_FILE = path.resolve("public/Schedule.json");
 const IMAGES_DIR = path.resolve("public/imagens_animes");
 const VERCEL_SYNC_FILE = path.resolve(".vercel-sync-scraping");
 
+// Modo incremental (padrão): só abre a página interna de animes novos ou sem dados.
+// FULL_REFRESH=true reabre todas as páginas internas (títulos, plataformas e imagens).
+const FULL_REFRESH = process.env.FULL_REFRESH === "true";
+
 // O Cloudflare do aniquim bloqueia:
 //  - o User-Agent "HeadlessChrome" padrão do Puppeteer
 //  - o fetch do Node (pela "impressão digital" TLS), mesmo com User-Agent de navegador
@@ -48,6 +52,56 @@ async function downloadImagem(page, url, filepath) {
   }
 }
 
+// Títulos e plataformas de streaming da página interna do anime
+function extrairPaginaInterna(page) {
+  return page.evaluate(() => {
+    const h1 = document.querySelector('h1[data-slot="text"]');
+    const titulo_en = h1 ? h1.textContent.trim() : null;
+
+    const pTags = document.querySelectorAll('p[data-slot="text"]');
+    let titulo = null;
+    let titulo_jp = null;
+
+    pTags.forEach((p) => {
+      if (p.classList.contains("min-w-0")) titulo_jp = p.textContent.trim();
+      else if (
+        p.classList.contains("truncate") &&
+        p.classList.contains("leading-none")
+      )
+        titulo = p.textContent.trim();
+    });
+
+    const plataformas = [];
+    const tagsStreaming = document.querySelectorAll("a[href]");
+    tagsStreaming.forEach((a) => {
+      const titleAttr =
+        a.getAttribute("title") || a.getAttribute("aria-label") || "";
+      if (
+        titleAttr.includes("Assistir em") ||
+        titleAttr.includes("Crunchyroll") ||
+        titleAttr.includes("Netflix")
+      ) {
+        const nome = titleAttr
+          .replace("Assistir em ", "")
+          .replace(" (BR)", "")
+          .trim();
+        const link = a.getAttribute("href");
+        const svg = a.querySelector("svg");
+
+        if (!plataformas.find((p) => p.nome === nome)) {
+          plataformas.push({
+            nome,
+            link_streaming: link,
+            icone_svg: svg ? svg.outerHTML : null,
+          });
+        }
+      }
+    });
+
+    return { titulo, titulo_en, titulo_jp, plataformas };
+  });
+}
+
 // ==========================================
 // 1. FLUXO PRINCIPAL DE SCRAPING
 // ==========================================
@@ -74,7 +128,7 @@ async function runScraping() {
   console.log(`Acessando página principal: ${urlPrincipal}`);
 
   await page.goto(urlPrincipal, { waitUntil: "domcontentloaded" });
-  await delay(5, 7); // Pausa aleatória igual ao Python[cite: 1]
+  await delay(1, 2);
 
   const tituloPagina = await page.title();
   console.log(`Título da página: ${tituloPagina}`);
@@ -201,76 +255,66 @@ async function runScraping() {
     .flat()
     .forEach((a) => a.page && antigosPorPagina.set(a.page, a));
 
-  // PASSO 2: Iterar sobre os dias e os animes[cite: 1]
+  console.log(
+    FULL_REFRESH
+      ? "Modo completo: reabrindo todas as páginas internas."
+      : "Modo incremental: abrindo só as páginas internas de animes novos.",
+  );
+
+  // PASSO 2: Monta cada anime, reaproveitando os dados internos que já temos
   for (const [dia, animes] of Object.entries(schedule)) {
-    console.log(`\n--- Processando animes de ${dia} ---`);
-    for (let anime of animes) {
-      console.log(`Acessando: ${anime.title_provisorio}...`);
-      await page.goto(anime.page, { waitUntil: "domcontentloaded" });
-      await delay(3, 5); //[cite: 1]
-
-      const dadosInternos = await page.evaluate(() => {
-        const h1 = document.querySelector('h1[data-slot="text"]');
-        const titulo_en = h1 ? h1.textContent.trim() : null;
-
-        const pTags = document.querySelectorAll('p[data-slot="text"]');
-        let titulo = null;
-        let titulo_jp = null;
-
-        pTags.forEach((p) => {
-          if (p.classList.contains("min-w-0")) titulo_jp = p.textContent.trim();
-          else if (
-            p.classList.contains("truncate") &&
-            p.classList.contains("leading-none")
-          )
-            titulo = p.textContent.trim();
-        });
-
-        const plataformas = [];
-        const tagsStreaming = document.querySelectorAll("a[href]");
-        tagsStreaming.forEach((a) => {
-          const titleAttr =
-            a.getAttribute("title") || a.getAttribute("aria-label") || "";
-          if (
-            titleAttr.includes("Assistir em") ||
-            titleAttr.includes("Crunchyroll") ||
-            titleAttr.includes("Netflix")
-          ) {
-            const nome = titleAttr
-              .replace("Assistir em ", "")
-              .replace(" (BR)", "")
-              .trim();
-            const link = a.getAttribute("href");
-            const svg = a.querySelector("svg");
-
-            if (!plataformas.find((p) => p.nome === nome)) {
-              plataformas.push({
-                nome,
-                link_streaming: link,
-                icone_svg: svg ? svg.outerHTML : null,
-              });
-            }
-          }
-        });
-
-        return { titulo, titulo_en, titulo_jp, plataformas };
-      });
-
-      const antigo = antigosPorPagina.get(anime.page) || {};
-      if (!dadosInternos.titulo_en && !dadosInternos.titulo) {
-        console.warn(
-          `  -> Página interna sem dados (${await page.title()}), reaproveitando dados antigos.`,
+    for (const [i, cartao] of animes.entries()) {
+      const antigo = antigosPorPagina.get(cartao.page);
+      const imagemAntigaExiste =
+        antigo?.local_image_path &&
+        fs.existsSync(
+          path.join(IMAGES_DIR, path.win32.basename(antigo.local_image_path)),
         );
-      }
-      anime.titulo = dadosInternos.titulo || antigo.titulo || anime.title_provisorio;
-      anime.titulo_en = dadosInternos.titulo_en || antigo.titulo_en || null;
-      anime.titulo_jp = dadosInternos.titulo_jp || antigo.titulo_jp || null;
-      anime.plataformas = dadosInternos.plataformas.length
-        ? dadosInternos.plataformas
-        : antigo.plataformas || [];
-      delete anime.title_provisorio;
+      const reaproveitar =
+        !FULL_REFRESH &&
+        antigo &&
+        (antigo.titulo_en || antigo.titulo) &&
+        imagemAntigaExiste;
 
-      // PASSO 3: Baixar a imagem
+      let internos;
+      if (reaproveitar) {
+        internos = antigo;
+      } else {
+        console.log(`[${dia}] Acessando: ${cartao.title_provisorio}...`);
+        await page.goto(cartao.page, { waitUntil: "domcontentloaded" });
+        await delay(3, 5);
+        internos = await extrairPaginaInterna(page);
+
+        if (!internos.titulo_en && !internos.titulo) {
+          console.warn(
+            `  -> Página interna sem dados (${await page.title()}), reaproveitando dados antigos.`,
+          );
+        }
+        internos = {
+          titulo:
+            internos.titulo || antigo?.titulo || cartao.title_provisorio,
+          titulo_en: internos.titulo_en || antigo?.titulo_en || null,
+          titulo_jp: internos.titulo_jp || antigo?.titulo_jp || null,
+          plataformas: internos.plataformas.length
+            ? internos.plataformas
+            : antigo?.plataformas || [],
+        };
+      }
+
+      // Mesma ordem de chaves do JSON salvo, para a comparação de mudanças ser estável
+      const anime = {
+        page: cartao.page,
+        image_url: cartao.image_url,
+        time: cartao.time,
+        episodio_atual: cartao.episodio_atual,
+        tags_generos: cartao.tags_generos,
+        titulo: internos.titulo,
+        titulo_en: internos.titulo_en,
+        titulo_jp: internos.titulo_jp,
+        plataformas: internos.plataformas,
+      };
+
+      // PASSO 3: Baixar a imagem (nova, inexistente ou com capa trocada no site)
       let urlImagem = anime.image_url;
       if (urlImagem) {
         if (urlImagem.startsWith("/")) {
@@ -284,14 +328,18 @@ async function runScraping() {
         const relativeImgPath = "imagens_animes\\" + nomeArquivo + ".jpg";
         const absoluteImgPath = path.join(IMAGES_DIR, `${nomeArquivo}.jpg`);
 
-        // Verifica se a imagem JÁ EXISTE na pasta antes de baixar
-        if (!fs.existsSync(absoluteImgPath)) {
-          console.log(`  -> Baixando nova imagem: ${nomeArquivo}.jpg`);
+        const capaMudou = antigo && antigo.image_url !== anime.image_url;
+        if (FULL_REFRESH || capaMudou || !fs.existsSync(absoluteImgPath)) {
+          console.log(`  -> Baixando imagem: ${nomeArquivo}.jpg`);
           await downloadImagem(page, urlImagem, absoluteImgPath);
         }
 
         anime.local_image_path = relativeImgPath;
+      } else if (antigo?.local_image_path) {
+        anime.local_image_path = antigo.local_image_path;
       }
+
+      animes[i] = anime;
     }
   }
 
@@ -299,6 +347,12 @@ async function runScraping() {
 
   // PASSO 4: Substitui a programação inteira (igual à versão Python).
   // O merge antigo nunca removia animes que saíram da grade nem os que mudaram de dia.
+  // Se nada mudou, não grava nada (evita commit e deploy na Vercel à toa).
+  if (JSON.stringify(schedule) === JSON.stringify(jsonExistente.schedule)) {
+    console.log("\nNenhuma mudança na programação.");
+    return false;
+  }
+
   const resultadoFinal = {
     updatedAt: new Date().toISOString(),
     schedule,
@@ -308,14 +362,16 @@ async function runScraping() {
     fs.mkdirSync(path.dirname(JSON_FILE), { recursive: true });
   fs.writeFileSync(JSON_FILE, JSON.stringify(resultadoFinal, null, 2), "utf8");
 
-  console.log(`\nSucesso! Os dados foram salvos e imagens atualizadas.`);
+  console.log("\nSucesso! Programação atualizada.");
+  return true;
 }
 
 // ==========================================
 // 2. INTEGRAÇÃO GIT / VERCEL (Similar ao sync-animes)
 // ==========================================
 async function main() {
-  await runScraping();
+  const mudou = await runScraping();
+  if (!mudou) return;
 
   // Commit no Git[cite: 2]
   fs.writeFileSync(
@@ -335,6 +391,8 @@ async function main() {
       "git add public/Schedule.json public/imagens_animes .vercel-sync-scraping",
     );
     execSync('git commit -m "chore: atualiza schedule e imagens via scraping"');
+    // Traz commits feitos enquanto o scraping rodava (ex.: push manual) antes de enviar
+    execSync("git pull --rebase");
     execSync("git push");
     console.log("🚀 Dados de scraping sincronizados e commitados no GitHub!");
   } catch (error) {

@@ -5,12 +5,24 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 */3 * * *" # Roda a cada 3 horas (Ajuste conforme a necessidade de carga no servidor deles)
+    - cron: "*/15 * * * *" # Incremental: confere a programação a cada 15 min (só commita se mudou)
+    - cron: "30 9 * * *" # Completo: 1x por dia (06:30 de Brasília) reabre todas as páginas internas
   workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: "Reabrir todas as páginas internas (títulos, plataformas e imagens)"
+        type: boolean
+        default: false
+
+# Evita duas execuções ao mesmo tempo disputando o push
+concurrency:
+  group: scraping-programacao
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -30,4 +42,5 @@ jobs:
       - name: Run Scraping Script
         env:
           TZ: America/Sao_Paulo
+          FULL_REFRESH: ${{ github.event.schedule == '30 9 * * *' || inputs.full_refresh == true }}
         run: node scraping.js
