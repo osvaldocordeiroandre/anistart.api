@@ -56,6 +56,7 @@ async function runScraping() {
   await delay(5, 7); // Pausa aleatória igual ao Python[cite: 1]
 
   // PASSO 1: Extrair e agrupar os cartões[cite: 1]
+  // PASSO 1: Extrair e agrupar os cartões
   let schedule = await page.evaluate(() => {
     const data = {
       Monday: [],
@@ -67,74 +68,81 @@ async function runScraping() {
       Sunday: [],
       Outros: [],
     };
-    const cartoes = document.querySelectorAll('div[data-slot="card"]');
 
-    cartoes.forEach((cartao) => {
-      let prev = cartao.previousElementSibling;
-      let textoDia = "";
-      while (prev) {
-        if (prev.matches('div[data-slot="text"]')) {
-          textoDia = prev.textContent.toLowerCase().trim();
-          break;
+    // Pega todos os possíveis textos de dias da semana E os cartões na ordem do documento
+    const elementos = document.querySelectorAll(
+      'h1, h2, h3, h4, div[data-slot="text"], span, p, div[data-slot="card"]',
+    );
+
+    let diaAtual = "Outros";
+
+    elementos.forEach((el) => {
+      // Se o elemento for um Cartão de anime, extraímos os dados e colocamos no diaAtual
+      if (el.matches('div[data-slot="card"]')) {
+        const cartao = el;
+
+        const linkEl = cartao.querySelector('a[href^="/anime/"]');
+        let linkRaw = linkEl ? linkEl.getAttribute("href") : null;
+        let linkCompleto =
+          linkRaw && linkRaw.startsWith("/")
+            ? "https://www.aniquim.com.br" + linkRaw
+            : linkRaw;
+
+        const imgEl = cartao.querySelector('a[href^="/anime/"] img');
+        let imagem = imgEl ? imgEl.getAttribute("src") : null;
+        if (!imagem && imgEl) {
+          const srcset = imgEl.getAttribute("srcset");
+          if (srcset) imagem = srcset.split(",")[0].split(" ")[0];
         }
-        prev = prev.previousElementSibling;
-      }
 
-      let diaSemana = "Outros";
-      if (textoDia.includes("segunda")) diaSemana = "Monday";
-      else if (textoDia.includes("terça") || textoDia.includes("terca"))
-        diaSemana = "Tuesday";
-      else if (textoDia.includes("quarta")) diaSemana = "Wednesday";
-      else if (textoDia.includes("quinta")) diaSemana = "Thursday";
-      else if (textoDia.includes("sexta")) diaSemana = "Friday";
-      else if (textoDia.includes("sábado") || textoDia.includes("sabado"))
-        diaSemana = "Saturday";
-      else if (textoDia.includes("domingo")) diaSemana = "Sunday";
+        const episodioEl = cartao.querySelector(
+          ".absolute.bottom-3.right-3 span.font-serif",
+        );
+        const episodio = episodioEl ? episodioEl.textContent.trim() : null;
 
-      const linkEl = cartao.querySelector('a[href^="/anime/"]');
-      let linkRaw = linkEl ? linkEl.getAttribute("href") : null;
-      let linkCompleto =
-        linkRaw && linkRaw.startsWith("/")
-          ? "https://www.aniquim.com.br" + linkRaw
-          : linkRaw;
+        const horarioEl = cartao.querySelector(
+          "div.items-baseline > span.font-bold",
+        );
+        const horario = horarioEl ? horarioEl.textContent.trim() : null;
 
-      const imgEl = cartao.querySelector('a[href^="/anime/"] img');
-      let imagem = imgEl ? imgEl.getAttribute("src") : null;
-      if (!imagem && imgEl) {
-        const srcset = imgEl.getAttribute("srcset");
-        if (srcset) imagem = srcset.split(",")[0].split(" ")[0];
-      }
+        let tagsEl =
+          cartao.querySelector(
+            'h3[data-slot="text"] + span.text-theme-muted',
+          ) || cartao.querySelector("div.flex-col > span.truncate");
+        const tags = tagsEl ? tagsEl.textContent.trim() : null;
 
-      const episodioEl = cartao.querySelector(
-        ".absolute.bottom-3.right-3 span.font-serif",
-      );
-      const episodio = episodioEl ? episodioEl.textContent.trim() : null;
+        const titleEl = cartao.querySelector('h3[data-slot="text"]');
+        const title_provisorio = titleEl ? titleEl.textContent.trim() : null;
 
-      const horarioEl = cartao.querySelector(
-        "div.items-baseline > span.font-bold",
-      );
-      const horario = horarioEl ? horarioEl.textContent.trim() : null;
-
-      let tagsEl =
-        cartao.querySelector('h3[data-slot="text"] + span.text-theme-muted') ||
-        cartao.querySelector("div.flex-col > span.truncate");
-      const tags = tagsEl ? tagsEl.textContent.trim() : null;
-
-      const titleEl = cartao.querySelector('h3[data-slot="text"]');
-      const title_provisorio = titleEl ? titleEl.textContent.trim() : null;
-
-      if (linkCompleto) {
-        data[diaSemana].push({
-          title_provisorio,
-          page: linkCompleto,
-          image_url: imagem,
-          time: horario,
-          episodio_atual: episodio,
-          tags_generos: tags,
-        });
+        if (linkCompleto) {
+          data[diaAtual].push({
+            title_provisorio,
+            page: linkCompleto,
+            image_url: imagem,
+            time: horario,
+            episodio_atual: episodio,
+            tags_generos: tags,
+          });
+        }
+      } else {
+        // Se o elemento não for um cartão, verificamos se o texto dele é um dia da semana
+        const texto = el.textContent.toLowerCase().trim();
+        // Filtra textos muito grandes para não confundir com sinopses
+        if (texto.length > 0 && texto.length < 30) {
+          if (texto.includes("segunda")) diaAtual = "Monday";
+          else if (texto.includes("terça") || texto.includes("terca"))
+            diaAtual = "Tuesday";
+          else if (texto.includes("quarta")) diaAtual = "Wednesday";
+          else if (texto.includes("quinta")) diaAtual = "Thursday";
+          else if (texto.includes("sexta")) diaAtual = "Friday";
+          else if (texto.includes("sábado") || texto.includes("sabado"))
+            diaAtual = "Saturday";
+          else if (texto.includes("domingo")) diaAtual = "Sunday";
+        }
       }
     });
 
+    // Remove os dias que não tiverem nenhum anime
     Object.keys(data).forEach((k) => {
       if (data[k].length === 0) delete data[k];
     });
