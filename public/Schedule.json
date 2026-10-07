@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T01:13:59.267Z",
+  "updatedAt": "2026-10-07T07:18:11.237Z",
   "schedule": {
     "Monday": [
       {
@@ -92,7 +92,7 @@
         "page": "https://www.aniquim.com.br/anime/nia-liston-the-merciless-maiden/4998",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F4998%2Flarge-ab0ffa7c0fcc.webp&w=3840&q=75",
         "time": "10:00",
-        "episodio_atual": "1",
+        "episodio_atual": "2",
         "tags_generos": "Ação, Fantasia",
         "titulo": "Kyouran Reijou Nia Liston: Byoujaku Reijou ni Tensei shita Kamigoroshi no Bujin no Karei Naru Musouroku",
         "titulo_en": "Nia Liston: The Merciless Maiden",
@@ -104,7 +104,7 @@
         "page": "https://www.aniquim.com.br/anime/the-cold-sato-san-is-only-sweet-to-me/18463",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F18463%2Flarge-e8852876556b.webp&w=3840&q=75",
         "time": "10:30",
-        "episodio_atual": "1",
+        "episodio_atual": "2",
         "tags_generos": "Comédia, Romance",
         "titulo": "Shiotaiou no Satou-san ga Ore ni dake Amai",
         "titulo_en": "The Cold Sato-san is Only Sweet to Me",
@@ -119,10 +119,28 @@
         "local_image_path": "imagens_animes\\The Cold Sato-san is Only Sweet to Me.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/chitose-is-in-the-ramune-bottle-parte-2/15677",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15677%2Flarge-bd64be5f30ea.webp&w=3840&q=75",
+        "time": "11:00",
+        "episodio_atual": "1",
+        "tags_generos": "Comédia, Romance",
+        "titulo": "Chitose-kun wa Ramune Bin no Naka Part 2",
+        "titulo_en": "Chitose Is in the Ramune Bottle - Parte 2",
+        "titulo_jp": "千歳くんはラムネ瓶のなか 第2クール",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00364783/chitose-is-in-the-ramune-bottle",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Chitose Is in the Ramune Bottle - Parte 2.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/battle-spirits-re-zekkai-no-kuu/9753",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F9753%2Flarge-87772eb215ac.webp&w=3840&q=75",
         "time": "11:30",
-        "episodio_atual": "1",
+        "episodio_atual": "2",
         "tags_generos": "Fantasia",
         "titulo": "Battle Spirits [Re]: Zekkai no Kuu",
         "titulo_en": "Battle Spirits [Re]: Zekkai no Kuu",
@@ -133,7 +151,7 @@
       {
         "page": "https://www.aniquim.com.br/anime/suikoden-o-anime/3970",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F3970%2Flarge-a95a1e65c6a1.webp&w=3840&q=75",
-        "time": "12 out",
+        "time": "11:30",
         "episodio_atual": "2",
         "tags_generos": "Ação, Fantasia, Drama",
         "titulo": "Gensou Suikoden",
@@ -146,7 +164,7 @@
         "page": "https://www.aniquim.com.br/anime/super-psychic-policeman-chojo/9173",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F9173%2Flarge-50f7f92653d9.webp&w=3840&q=75",
         "time": "11:45",
-        "episodio_atual": "1",
+        "episodio_atual": "2",
         "tags_generos": "Comédia, Sobrenatural",
         "titulo": "Choujun! Choujou-senpai",
         "titulo_en": "Super Psychic Policeman Chojo",
@@ -164,7 +182,7 @@
         "page": "https://www.aniquim.com.br/anime/the-laid-off-cheat-granting-mage-enjoys-a-new-life/14426",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F14426%2Flarge-dba675902b66.webp&w=3840&q=75",
         "time": "12:30",
-        "episodio_atual": "1",
+        "episodio_atual": "2",
         "tags_generos": "Ação, Fantasia, Aventura",
         "titulo": "Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru. Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?",
         "titulo_en": "The Laid-Off Cheat-Granting Mage Enjoys a New Life",
@@ -179,10 +197,22 @@
         "local_image_path": "imagens_animes\\The Laid-Off Cheat-Granting Mage Enjoys a New Life.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/dark-machine-the-animation/1022",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F1022%2Flarge-05bdf47e9599.webp&w=3840&q=75",
+        "time": "13:45",
+        "episodio_atual": "1",
+        "tags_generos": "Ficção Científica",
+        "titulo": "Dark Machine: The Animation",
+        "titulo_en": "Dark Machine: The Animation",
+        "titulo_jp": "DARK MACHINE -The Animation-",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\Dark Machine The Animation.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/red-river/14535",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F14535%2Flarge-4f2c4d53214b.webp&w=3840&q=75",
         "time": "14:45",
-        "episodio_atual": "14",
+        "episodio_atual": "15",
         "tags_generos": "Ação, Drama, Aventura",
         "titulo": "Sora wa Akai Kawa no Hotori",
         "titulo_en": "Red River",
@@ -662,7 +692,7 @@
       },
       {
         "page": "https://www.aniquim.com.br/anime/rilakkuma/20258",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20258%2Flarge.webp&w=3840&q=75",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20258%2Flarge-cb49a7254cb5.webp&w=3840&q=75",
         "time": "22:00",
         "episodio_atual": "27",
         "tags_generos": "Slice of Life",
@@ -811,6 +841,24 @@
         "local_image_path": "imagens_animes\\Vertex Force.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/black-clover-2a-temporada/5580",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F5580%2Flarge-cd19ff7442eb.webp&w=3840&q=75",
+        "time": "12:00",
+        "episodio_atual": "2",
+        "tags_generos": "Ação, Fantasia",
+        "titulo": "Black Clover 2nd Season",
+        "titulo_en": "Black Clover - 2ª Temporada",
+        "titulo_jp": "ブラッククローバー 2nd season",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Black Clover - 2ª Temporada.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/im-looking-for-zombie/15646",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15646%2Flarge-1e2db27ee3af.webp&w=3840&q=75",
         "time": "12:00",
@@ -845,24 +893,6 @@
           }
         ],
         "local_image_path": "imagens_animes\\The Seven Knights of the Marronnier Kingdom.jpg"
-      },
-      {
-        "page": "https://www.aniquim.com.br/anime/black-clover-2a-temporada/5580",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F5580%2Flarge-cd19ff7442eb.webp&w=3840&q=75",
-        "time": "12:00",
-        "episodio_atual": "2",
-        "tags_generos": "Ação, Fantasia",
-        "titulo": "Black Clover 2nd Season",
-        "titulo_en": "Black Clover - 2ª Temporada",
-        "titulo_jp": "ブラッククローバー 2nd season",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Black Clover - 2ª Temporada.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/magical-explorer/12096",
@@ -933,24 +963,6 @@
     ],
     "Sunday": [
       {
-        "page": "https://www.aniquim.com.br/anime/blue-box-2a-temporada/15794",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15794%2Flarge-6338fd232f5d.webp&w=3840&q=75",
-        "time": "05:00",
-        "episodio_atual": "2",
-        "tags_generos": "Drama, Esportes, Romance",
-        "titulo": "Ao no Hako Season 2",
-        "titulo_en": "Blue Box - 2ª Temporada",
-        "titulo_jp": "アオのハコ Season2",
-        "plataformas": [
-          {
-            "nome": "Netflix",
-            "link_streaming": "https://www.netflix.com/br/title/81663323",
-            "icone_svg": "<svg width=\"407\" height=\"407\" viewBox=\"0 0 407.29349 407.29348\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" class=\"size-7 rounded-full\"><title>Netflix (BR)</title><defs><linearGradient id=\"netflix-a\"><stop offset=\"0\"></stop><stop offset=\"1\" stop-opacity=\"0\"></stop></linearGradient><radialGradient xlink:href=\"#netflix-a\" id=\"netflix-b\" cx=\"367.99158\" cy=\"280.36646\" r=\"368.71729\" fx=\"367.99158\" fy=\"280.36646\" gradientTransform=\"matrix(.30407 -.10528 3.8564 11.13776 -825.1108 -2803.5461)\" gradientUnits=\"userSpaceOnUse\"></radialGradient><radialGradient xlink:href=\"#netflix-a\" id=\"netflix-c\" cx=\"367.99158\" cy=\"280.36646\" r=\"368.71729\" fx=\"367.99158\" fy=\"280.36646\" gradientTransform=\"matrix(.30407 -.10528 3.8564 11.13776 -825.1108 -2803.5461)\" gradientUnits=\"userSpaceOnUse\"></radialGradient></defs><g transform=\"translate(12.494543 6.7556334)\"><rect width=\"407.29349\" height=\"407.29349\" x=\"-12.494543\" y=\"-6.7556334\" ry=\"37.455776\"></rect><g transform=\"translate(81.631476 113.77111) scale(.29074)\"><path fill=\"#b1060f\" fill-rule=\"evenodd\" stroke=\"#000\" d=\"m451.82617-188.60352-.36914 210.000004-.37109 209.999996-17.27735-48.75c-.006-.0168-.0273-.0789-.0332-.0957l-22.32617 467.51563c21.95088 61.98892 33.71165 95.08081 33.84375 95.21289.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.5165-.4626.79775-214.28135.625-475.15235l-.31445-474.31055h-186.25zm-336.875-.625V285.5625c0 261.1354.25552 475.04843.56836 475.36133.31282.3128 16.4847-1.21398 35.9375-3.39258 19.45278-2.1787 46.33789-4.88783 59.74414-6.01953 20.56097-1.7358 81.94995-5.68286 89.0586-5.72656 2.06786-.013 2.20049-10.68157 2.5-201.10157l.3164-201.08789 14.85352 42.02539c2.29551 6.49543 3.01555 8.52378 5.25195 14.85157l22.32031-467.400394c-4.72927-13.371182-2.25012-6.352022-7.66992-21.675782-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95117z\"></path><path fill=\"url(#netflix-b)\" fill-rule=\"evenodd\" d=\"M114.95117-189.22852V77.285156l187.7461 498.023434c.0196-11.41266.042-17.57934.0625-30.625l.3164-201.08789 14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.355-.31796.58674-105.15812.64844-253.0586L451.54688-29.443359l-.0899 50.839843-.37109 209.999996-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95112z\"></path><path fill=\"#e50914\" fill-rule=\"evenodd\" d=\"m114.95508-189.22852 188.12109 533.06641v-.24219l14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.91766 1.23215 18.45293 1.86506 19.04883 1.41601l-186.66406-529.5664v.0976l-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95508z\"></path><path fill=\"#b1060f\" fill-rule=\"evenodd\" stroke=\"#000\" d=\"m451.82617-188.60352-.36914 210.000004-.37109 209.999996-17.27735-48.75c-.006-.0168-.0273-.0789-.0332-.0957l-22.32617 467.51563c21.95088 61.98892 33.71165 95.08081 33.84375 95.21289.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.5165-.4626.79775-214.28135.625-475.15235l-.31445-474.31055h-186.25zm-336.875-.625V285.5625c0 261.1354.25552 475.04843.56836 475.36133.31282.3128 16.4847-1.21398 35.9375-3.39258 19.45278-2.1787 46.33789-4.88783 59.74414-6.01953 20.56097-1.7358 81.94995-5.68286 89.0586-5.72656 2.06786-.013 2.20049-10.68157 2.5-201.10157l.3164-201.08789 14.85352 42.02539c2.29551 6.49543 3.01555 8.52378 5.25195 14.85157l22.32031-467.400394c-4.72927-13.371182-2.25012-6.352022-7.66992-21.675782-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95117z\"></path><path fill=\"url(#netflix-c)\" fill-rule=\"evenodd\" d=\"M114.95117-189.22852V77.285156l187.7461 498.023434c.0196-11.41266.042-17.57934.0625-30.625l.3164-201.08789 14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.355-.31796.58674-105.15812.64844-253.0586L451.54688-29.443359l-.0899 50.839843-.37109 209.999996-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95112z\"></path><path fill=\"#e50914\" fill-rule=\"evenodd\" d=\"m114.95508-189.22852 188.12109 533.06641v-.24219l14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.91766 1.23215 18.45293 1.86506 19.04883 1.41601l-186.66406-529.5664v.0976l-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95508z\"></path></g></g></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Blue Box - 2ª Temporada.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/mission-yozakura-family-2a-temporada-parte-2/24974",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24974%2Flarge-a865a8d1d4be.webp&w=3840&q=75",
         "time": "05:00",
@@ -967,6 +979,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\Mission Yozakura Family - 2ª Temporada Parte 2.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/blue-box-2a-temporada/15794",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15794%2Flarge-6338fd232f5d.webp&w=3840&q=75",
+        "time": "05:00",
+        "episodio_atual": "2",
+        "tags_generos": "Drama, Esportes, Romance",
+        "titulo": "Ao no Hako Season 2",
+        "titulo_en": "Blue Box - 2ª Temporada",
+        "titulo_jp": "アオのハコ Season2",
+        "plataformas": [
+          {
+            "nome": "Netflix",
+            "link_streaming": "https://www.netflix.com/br/title/81663323",
+            "icone_svg": "<svg width=\"407\" height=\"407\" viewBox=\"0 0 407.29349 407.29348\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" class=\"size-7 rounded-full\"><title>Netflix (BR)</title><defs><linearGradient id=\"netflix-a\"><stop offset=\"0\"></stop><stop offset=\"1\" stop-opacity=\"0\"></stop></linearGradient><radialGradient xlink:href=\"#netflix-a\" id=\"netflix-b\" cx=\"367.99158\" cy=\"280.36646\" r=\"368.71729\" fx=\"367.99158\" fy=\"280.36646\" gradientTransform=\"matrix(.30407 -.10528 3.8564 11.13776 -825.1108 -2803.5461)\" gradientUnits=\"userSpaceOnUse\"></radialGradient><radialGradient xlink:href=\"#netflix-a\" id=\"netflix-c\" cx=\"367.99158\" cy=\"280.36646\" r=\"368.71729\" fx=\"367.99158\" fy=\"280.36646\" gradientTransform=\"matrix(.30407 -.10528 3.8564 11.13776 -825.1108 -2803.5461)\" gradientUnits=\"userSpaceOnUse\"></radialGradient></defs><g transform=\"translate(12.494543 6.7556334)\"><rect width=\"407.29349\" height=\"407.29349\" x=\"-12.494543\" y=\"-6.7556334\" ry=\"37.455776\"></rect><g transform=\"translate(81.631476 113.77111) scale(.29074)\"><path fill=\"#b1060f\" fill-rule=\"evenodd\" stroke=\"#000\" d=\"m451.82617-188.60352-.36914 210.000004-.37109 209.999996-17.27735-48.75c-.006-.0168-.0273-.0789-.0332-.0957l-22.32617 467.51563c21.95088 61.98892 33.71165 95.08081 33.84375 95.21289.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.5165-.4626.79775-214.28135.625-475.15235l-.31445-474.31055h-186.25zm-336.875-.625V285.5625c0 261.1354.25552 475.04843.56836 475.36133.31282.3128 16.4847-1.21398 35.9375-3.39258 19.45278-2.1787 46.33789-4.88783 59.74414-6.01953 20.56097-1.7358 81.94995-5.68286 89.0586-5.72656 2.06786-.013 2.20049-10.68157 2.5-201.10157l.3164-201.08789 14.85352 42.02539c2.29551 6.49543 3.01555 8.52378 5.25195 14.85157l22.32031-467.400394c-4.72927-13.371182-2.25012-6.352022-7.66992-21.675782-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95117z\"></path><path fill=\"url(#netflix-b)\" fill-rule=\"evenodd\" d=\"M114.95117-189.22852V77.285156l187.7461 498.023434c.0196-11.41266.042-17.57934.0625-30.625l.3164-201.08789 14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.355-.31796.58674-105.15812.64844-253.0586L451.54688-29.443359l-.0899 50.839843-.37109 209.999996-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95112z\"></path><path fill=\"#e50914\" fill-rule=\"evenodd\" d=\"m114.95508-189.22852 188.12109 533.06641v-.24219l14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.91766 1.23215 18.45293 1.86506 19.04883 1.41601l-186.66406-529.5664v.0976l-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95508z\"></path><path fill=\"#b1060f\" fill-rule=\"evenodd\" stroke=\"#000\" d=\"m451.82617-188.60352-.36914 210.000004-.37109 209.999996-17.27735-48.75c-.006-.0168-.0273-.0789-.0332-.0957l-22.32617 467.51563c21.95088 61.98892 33.71165 95.08081 33.84375 95.21289.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.5165-.4626.79775-214.28135.625-475.15235l-.31445-474.31055h-186.25zm-336.875-.625V285.5625c0 261.1354.25552 475.04843.56836 475.36133.31282.3128 16.4847-1.21398 35.9375-3.39258 19.45278-2.1787 46.33789-4.88783 59.74414-6.01953 20.56097-1.7358 81.94995-5.68286 89.0586-5.72656 2.06786-.013 2.20049-10.68157 2.5-201.10157l.3164-201.08789 14.85352 42.02539c2.29551 6.49543 3.01555 8.52378 5.25195 14.85157l22.32031-467.400394c-4.72927-13.371182-2.25012-6.352022-7.66992-21.675782-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95117z\"></path><path fill=\"url(#netflix-c)\" fill-rule=\"evenodd\" d=\"M114.95117-189.22852V77.285156l187.7461 498.023434c.0196-11.41266.042-17.57934.0625-30.625l.3164-201.08789 14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.355-.31796.58674-105.15812.64844-253.0586L451.54688-29.443359l-.0899 50.839843-.37109 209.999996-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95112z\"></path><path fill=\"#e50914\" fill-rule=\"evenodd\" d=\"m114.95508-189.22852 188.12109 533.06641v-.24219l14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.91766 1.23215 18.45293 1.86506 19.04883 1.41601l-186.66406-529.5664v.0976l-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95508z\"></path></g></g></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Blue Box - 2ª Temporada.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/ace-of-diamond-act-ii-2a-temporada-parte-2/24976",
@@ -1143,6 +1173,18 @@
         "local_image_path": "imagens_animes\\Hotel Inhumans - 2ª Temporada.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/from-far-away/17783",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F17783%2Flarge-1fa958d95d4b.webp&w=3840&q=75",
+        "time": "13:00",
+        "episodio_atual": "2",
+        "tags_generos": "Fantasia, Aventura, Romance",
+        "titulo": "Kanata kara",
+        "titulo_en": "From Far Away",
+        "titulo_jp": "彼方から",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\From Far Away.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/dragon-ball-super-beerus/12905",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F12905%2Flarge-68649a136957.webp&w=3840&q=75",
         "time": "13:00",
@@ -1159,18 +1201,6 @@
           }
         ],
         "local_image_path": "imagens_animes\\Dragon Ball Super Beerus.jpg"
-      },
-      {
-        "page": "https://www.aniquim.com.br/anime/from-far-away/17783",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F17783%2Flarge-1fa958d95d4b.webp&w=3840&q=75",
-        "time": "13:00",
-        "episodio_atual": "2",
-        "tags_generos": "Fantasia, Aventura, Romance",
-        "titulo": "Kanata kara",
-        "titulo_en": "From Far Away",
-        "titulo_jp": "彼方から",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\From Far Away.jpg"
       }
     ]
   }
