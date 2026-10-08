@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T19:27:54.384Z",
+  "updatedAt": "2026-10-08T23:52:55.748Z",
   "schedule": {
     "Monday": [
       {
@@ -411,6 +411,18 @@
         "local_image_path": "imagens_animes\\Parede de Gelo - 2ª Temporada.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-cf524bc9468d.webp&w=3840&q=75",
+        "time": "13:00",
+        "episodio_atual": "1",
+        "tags_generos": "Slice of Life",
+        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/the-exiled-heavy-knight-knows-how-to-game-the-system/20368",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20368%2Flarge-584d7ce331f8.webp&w=3840&q=75",
         "time": "13:00",
@@ -427,18 +439,6 @@
           }
         ],
         "local_image_path": "imagens_animes\\The Exiled Heavy Knight Knows How to Game the System.jpg"
-      },
-      {
-        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-cf524bc9468d.webp&w=3840&q=75",
-        "time": "13:00",
-        "episodio_atual": "1",
-        "tags_generos": "Slice of Life",
-        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/with-vengeance-sincerely-your-broken-saintess-2a-temporada/24800",
@@ -841,42 +841,6 @@
         "local_image_path": "imagens_animes\\Horror Collector.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/black-clover-2a-temporada/5580",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F5580%2Flarge-cd19ff7442eb.webp&w=3840&q=75",
-        "time": "12:00",
-        "episodio_atual": "2",
-        "tags_generos": "Ação, Fantasia",
-        "titulo": "Black Clover 2nd Season",
-        "titulo_en": "Black Clover - 2ª Temporada",
-        "titulo_jp": "ブラッククローバー 2nd season",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Black Clover - 2ª Temporada.jpg"
-      },
-      {
-        "page": "https://www.aniquim.com.br/anime/vertex-force/18997",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F18997%2Flarge-88770b98d9e8.webp&w=3840&q=75",
-        "time": "12:00",
-        "episodio_atual": "2",
-        "tags_generos": "Ação, Ficção Científica",
-        "titulo": "Vertex Force",
-        "titulo_en": "Vertex Force",
-        "titulo_jp": "バーテックスフォース",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00365619/vertex-force",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Vertex Force.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/im-looking-for-zombie/15646",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15646%2Flarge-91b1e205ff7b.webp&w=3840&q=75",
         "time": "12:00",
@@ -911,6 +875,42 @@
           }
         ],
         "local_image_path": "imagens_animes\\The Seven Knights of the Marronnier Kingdom.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/vertex-force/18997",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F18997%2Flarge-88770b98d9e8.webp&w=3840&q=75",
+        "time": "12:00",
+        "episodio_atual": "2",
+        "tags_generos": "Ação, Ficção Científica",
+        "titulo": "Vertex Force",
+        "titulo_en": "Vertex Force",
+        "titulo_jp": "バーテックスフォース",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00365619/vertex-force",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Vertex Force.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/black-clover-2a-temporada/5580",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F5580%2Flarge-cd19ff7442eb.webp&w=3840&q=75",
+        "time": "12:00",
+        "episodio_atual": "2",
+        "tags_generos": "Ação, Fantasia",
+        "titulo": "Black Clover 2nd Season",
+        "titulo_en": "Black Clover - 2ª Temporada",
+        "titulo_jp": "ブラッククローバー 2nd season",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Black Clover - 2ª Temporada.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/magical-explorer/12096",
@@ -1004,24 +1004,6 @@
     ],
     "Sunday": [
       {
-        "page": "https://www.aniquim.com.br/anime/blue-box-2a-temporada/15794",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15794%2Flarge-6338fd232f5d.webp&w=3840&q=75",
-        "time": "05:00",
-        "episodio_atual": "2",
-        "tags_generos": "Drama, Esportes, Romance",
-        "titulo": "Ao no Hako Season 2",
-        "titulo_en": "Blue Box - 2ª Temporada",
-        "titulo_jp": "アオのハコ Season2",
-        "plataformas": [
-          {
-            "nome": "Netflix",
-            "link_streaming": "https://www.netflix.com/br/title/81663323",
-            "icone_svg": "<svg width=\"407\" height=\"407\" viewBox=\"0 0 407.29349 407.29348\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" class=\"size-7 rounded-full\"><title>Netflix (BR)</title><defs><linearGradient id=\"netflix-a\"><stop offset=\"0\"></stop><stop offset=\"1\" stop-opacity=\"0\"></stop></linearGradient><radialGradient xlink:href=\"#netflix-a\" id=\"netflix-b\" cx=\"367.99158\" cy=\"280.36646\" r=\"368.71729\" fx=\"367.99158\" fy=\"280.36646\" gradientTransform=\"matrix(.30407 -.10528 3.8564 11.13776 -825.1108 -2803.5461)\" gradientUnits=\"userSpaceOnUse\"></radialGradient><radialGradient xlink:href=\"#netflix-a\" id=\"netflix-c\" cx=\"367.99158\" cy=\"280.36646\" r=\"368.71729\" fx=\"367.99158\" fy=\"280.36646\" gradientTransform=\"matrix(.30407 -.10528 3.8564 11.13776 -825.1108 -2803.5461)\" gradientUnits=\"userSpaceOnUse\"></radialGradient></defs><g transform=\"translate(12.494543 6.7556334)\"><rect width=\"407.29349\" height=\"407.29349\" x=\"-12.494543\" y=\"-6.7556334\" ry=\"37.455776\"></rect><g transform=\"translate(81.631476 113.77111) scale(.29074)\"><path fill=\"#b1060f\" fill-rule=\"evenodd\" stroke=\"#000\" d=\"m451.82617-188.60352-.36914 210.000004-.37109 209.999996-17.27735-48.75c-.006-.0168-.0273-.0789-.0332-.0957l-22.32617 467.51563c21.95088 61.98892 33.71165 95.08081 33.84375 95.21289.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.5165-.4626.79775-214.28135.625-475.15235l-.31445-474.31055h-186.25zm-336.875-.625V285.5625c0 261.1354.25552 475.04843.56836 475.36133.31282.3128 16.4847-1.21398 35.9375-3.39258 19.45278-2.1787 46.33789-4.88783 59.74414-6.01953 20.56097-1.7358 81.94995-5.68286 89.0586-5.72656 2.06786-.013 2.20049-10.68157 2.5-201.10157l.3164-201.08789 14.85352 42.02539c2.29551 6.49543 3.01555 8.52378 5.25195 14.85157l22.32031-467.400394c-4.72927-13.371182-2.25012-6.352022-7.66992-21.675782-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95117z\"></path><path fill=\"url(#netflix-b)\" fill-rule=\"evenodd\" d=\"M114.95117-189.22852V77.285156l187.7461 498.023434c.0196-11.41266.042-17.57934.0625-30.625l.3164-201.08789 14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.355-.31796.58674-105.15812.64844-253.0586L451.54688-29.443359l-.0899 50.839843-.37109 209.999996-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95112z\"></path><path fill=\"#e50914\" fill-rule=\"evenodd\" d=\"m114.95508-189.22852 188.12109 533.06641v-.24219l14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.91766 1.23215 18.45293 1.86506 19.04883 1.41601l-186.66406-529.5664v.0976l-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95508z\"></path><path fill=\"#b1060f\" fill-rule=\"evenodd\" stroke=\"#000\" d=\"m451.82617-188.60352-.36914 210.000004-.37109 209.999996-17.27735-48.75c-.006-.0168-.0273-.0789-.0332-.0957l-22.32617 467.51563c21.95088 61.98892 33.71165 95.08081 33.84375 95.21289.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.5165-.4626.79775-214.28135.625-475.15235l-.31445-474.31055h-186.25zm-336.875-.625V285.5625c0 261.1354.25552 475.04843.56836 475.36133.31282.3128 16.4847-1.21398 35.9375-3.39258 19.45278-2.1787 46.33789-4.88783 59.74414-6.01953 20.56097-1.7358 81.94995-5.68286 89.0586-5.72656 2.06786-.013 2.20049-10.68157 2.5-201.10157l.3164-201.08789 14.85352 42.02539c2.29551 6.49543 3.01555 8.52378 5.25195 14.85157l22.32031-467.400394c-4.72927-13.371182-2.25012-6.352022-7.66992-21.675782-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95117z\"></path><path fill=\"url(#netflix-c)\" fill-rule=\"evenodd\" d=\"M114.95117-189.22852V77.285156l187.7461 498.023434c.0196-11.41266.042-17.57934.0625-30.625l.3164-201.08789 14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.355-.31796.58674-105.15812.64844-253.0586L451.54688-29.443359l-.0899 50.839843-.37109 209.999996-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95112z\"></path><path fill=\"#e50914\" fill-rule=\"evenodd\" d=\"m114.95508-189.22852 188.12109 533.06641v-.24219l14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.91766 1.23215 18.45293 1.86506 19.04883 1.41601l-186.66406-529.5664v.0976l-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95508z\"></path></g></g></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Blue Box - 2ª Temporada.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/mission-yozakura-family-2a-temporada-parte-2/24974",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24974%2Flarge-a865a8d1d4be.webp&w=3840&q=75",
         "time": "05:00",
@@ -1038,6 +1020,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\Mission Yozakura Family - 2ª Temporada Parte 2.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/blue-box-2a-temporada/15794",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15794%2Flarge-6338fd232f5d.webp&w=3840&q=75",
+        "time": "05:00",
+        "episodio_atual": "2",
+        "tags_generos": "Drama, Esportes, Romance",
+        "titulo": "Ao no Hako Season 2",
+        "titulo_en": "Blue Box - 2ª Temporada",
+        "titulo_jp": "アオのハコ Season2",
+        "plataformas": [
+          {
+            "nome": "Netflix",
+            "link_streaming": "https://www.netflix.com/br/title/81663323",
+            "icone_svg": "<svg width=\"407\" height=\"407\" viewBox=\"0 0 407.29349 407.29348\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" role=\"img\" class=\"size-7 rounded-full\"><title>Netflix (BR)</title><defs><linearGradient id=\"netflix-a\"><stop offset=\"0\"></stop><stop offset=\"1\" stop-opacity=\"0\"></stop></linearGradient><radialGradient xlink:href=\"#netflix-a\" id=\"netflix-b\" cx=\"367.99158\" cy=\"280.36646\" r=\"368.71729\" fx=\"367.99158\" fy=\"280.36646\" gradientTransform=\"matrix(.30407 -.10528 3.8564 11.13776 -825.1108 -2803.5461)\" gradientUnits=\"userSpaceOnUse\"></radialGradient><radialGradient xlink:href=\"#netflix-a\" id=\"netflix-c\" cx=\"367.99158\" cy=\"280.36646\" r=\"368.71729\" fx=\"367.99158\" fy=\"280.36646\" gradientTransform=\"matrix(.30407 -.10528 3.8564 11.13776 -825.1108 -2803.5461)\" gradientUnits=\"userSpaceOnUse\"></radialGradient></defs><g transform=\"translate(12.494543 6.7556334)\"><rect width=\"407.29349\" height=\"407.29349\" x=\"-12.494543\" y=\"-6.7556334\" ry=\"37.455776\"></rect><g transform=\"translate(81.631476 113.77111) scale(.29074)\"><path fill=\"#b1060f\" fill-rule=\"evenodd\" stroke=\"#000\" d=\"m451.82617-188.60352-.36914 210.000004-.37109 209.999996-17.27735-48.75c-.006-.0168-.0273-.0789-.0332-.0957l-22.32617 467.51563c21.95088 61.98892 33.71165 95.08081 33.84375 95.21289.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.5165-.4626.79775-214.28135.625-475.15235l-.31445-474.31055h-186.25zm-336.875-.625V285.5625c0 261.1354.25552 475.04843.56836 475.36133.31282.3128 16.4847-1.21398 35.9375-3.39258 19.45278-2.1787 46.33789-4.88783 59.74414-6.01953 20.56097-1.7358 81.94995-5.68286 89.0586-5.72656 2.06786-.013 2.20049-10.68157 2.5-201.10157l.3164-201.08789 14.85352 42.02539c2.29551 6.49543 3.01555 8.52378 5.25195 14.85157l22.32031-467.400394c-4.72927-13.371182-2.25012-6.352022-7.66992-21.675782-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95117z\"></path><path fill=\"url(#netflix-b)\" fill-rule=\"evenodd\" d=\"M114.95117-189.22852V77.285156l187.7461 498.023434c.0196-11.41266.042-17.57934.0625-30.625l.3164-201.08789 14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.355-.31796.58674-105.15812.64844-253.0586L451.54688-29.443359l-.0899 50.839843-.37109 209.999996-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95112z\"></path><path fill=\"#e50914\" fill-rule=\"evenodd\" d=\"m114.95508-189.22852 188.12109 533.06641v-.24219l14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.91766 1.23215 18.45293 1.86506 19.04883 1.41601l-186.66406-529.5664v.0976l-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95508z\"></path><path fill=\"#b1060f\" fill-rule=\"evenodd\" stroke=\"#000\" d=\"m451.82617-188.60352-.36914 210.000004-.37109 209.999996-17.27735-48.75c-.006-.0168-.0273-.0789-.0332-.0957l-22.32617 467.51563c21.95088 61.98892 33.71165 95.08081 33.84375 95.21289.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.5165-.4626.79775-214.28135.625-475.15235l-.31445-474.31055h-186.25zm-336.875-.625V285.5625c0 261.1354.25552 475.04843.56836 475.36133.31282.3128 16.4847-1.21398 35.9375-3.39258 19.45278-2.1787 46.33789-4.88783 59.74414-6.01953 20.56097-1.7358 81.94995-5.68286 89.0586-5.72656 2.06786-.013 2.20049-10.68157 2.5-201.10157l.3164-201.08789 14.85352 42.02539c2.29551 6.49543 3.01555 8.52378 5.25195 14.85157l22.32031-467.400394c-4.72927-13.371182-2.25012-6.352022-7.66992-21.675782-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95117z\"></path><path fill=\"url(#netflix-c)\" fill-rule=\"evenodd\" d=\"M114.95117-189.22852V77.285156l187.7461 498.023434c.0196-11.41266.042-17.57934.0625-30.625l.3164-201.08789 14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.96875 1.2385 18.54796 1.87275 19.06445 1.41016.355-.31796.58674-105.15812.64844-253.0586L451.54688-29.443359l-.0899 50.839843-.37109 209.999996-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95112z\"></path><path fill=\"#e50914\" fill-rule=\"evenodd\" d=\"m114.95508-189.22852 188.12109 533.06641v-.24219l14.85352 42.02539c82.68109 233.9563 127.10203 359.39701 127.36328 359.65821.17284.1729 12.68225.92753 27.79883 1.67773 45.79984 2.2727 102.55492 7.14269 145.60937 12.49219 9.91766 1.23215 18.45293 1.86506 19.04883 1.41601l-186.66406-529.5664v.0976l-17.27735-48.75c-16.88185-47.6341-28.15376-79.49-95.97656-271.249996-18.23693-51.562504-33.71225-95.296904-34.39062-97.187504l-1.23438-3.4375H114.95508z\"></path></g></g></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Blue Box - 2ª Temporada.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/ace-of-diamond-act-ii-2a-temporada-parte-2/24976",
