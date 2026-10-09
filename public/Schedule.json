@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T17:33:33.509Z",
+  "updatedAt": "2026-10-09T21:53:01.725Z",
   "schedule": {
     "Monday": [
       {
@@ -376,7 +376,7 @@
     "Thursday": [
       {
         "page": "https://www.aniquim.com.br/anime/fx-fighter-kurumi-chan/18112",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F18112%2Flarge-5af50a924f8c.webp&w=3840&q=75",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F18112%2Flarge-0096215c1836.webp&w=3840&q=75",
         "time": "09:30",
         "episodio_atual": "3",
         "tags_generos": "Drama, Suspense, Slice of Life",
@@ -411,18 +411,6 @@
         "local_image_path": "imagens_animes\\Parede de Gelo - 2ª Temporada.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-cf524bc9468d.webp&w=3840&q=75",
-        "time": "13:00",
-        "episodio_atual": "2",
-        "tags_generos": "Slice of Life",
-        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/the-exiled-heavy-knight-knows-how-to-game-the-system/20368",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20368%2Flarge-584d7ce331f8.webp&w=3840&q=75",
         "time": "13:00",
@@ -439,6 +427,18 @@
           }
         ],
         "local_image_path": "imagens_animes\\The Exiled Heavy Knight Knows How to Game the System.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-cf524bc9468d.webp&w=3840&q=75",
+        "time": "13:00",
+        "episodio_atual": "2",
+        "tags_generos": "Slice of Life",
+        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/with-vengeance-sincerely-your-broken-saintess-2a-temporada/24800",
@@ -471,28 +471,28 @@
         "local_image_path": "imagens_animes\\The Iceblade Sorcerer Shall Rule the World II - 2ª Temporada.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/bang-dream-ave-mujica-prima-aurora/2137",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F2137%2Flarge-1aad1e447429.webp&w=3840&q=75",
-        "time": "21:00",
-        "episodio_atual": "1",
-        "tags_generos": "Drama, Música",
-        "titulo": "BanG Dream! Ave Mujica: Prima Aurora",
-        "titulo_en": "BanG Dream! Ave Mujica: Prima Aurora",
-        "titulo_jp": "BanG Dream! Ave Mujica prima aurora",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\BanG Dream! Ave Mujica Prima Aurora.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/rascal-does-not-dream-of-a-dear-friend/14449",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F14449%2Flarge-6f92a782fdaf.webp&w=3840&q=75",
         "time": "21:00",
-        "episodio_atual": "1",
+        "episodio_atual": null,
         "tags_generos": "Drama, Romance, Sobrenatural",
         "titulo": "Seishun Buta Yarou wa Dear Friend no Yume wo Minai",
         "titulo_en": "Rascal Does Not Dream of a Dear Friend",
         "titulo_jp": "青春ブタ野郎はディアフレンドの夢を見ない",
         "plataformas": [],
         "local_image_path": "imagens_animes\\Rascal Does Not Dream of a Dear Friend.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/bang-dream-ave-mujica-prima-aurora/2137",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F2137%2Flarge-1aad1e447429.webp&w=3840&q=75",
+        "time": "21:00",
+        "episodio_atual": null,
+        "tags_generos": "Drama, Música",
+        "titulo": "BanG Dream! Ave Mujica: Prima Aurora",
+        "titulo_en": "BanG Dream! Ave Mujica: Prima Aurora",
+        "titulo_jp": "BanG Dream! Ave Mujica prima aurora",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\BanG Dream! Ave Mujica Prima Aurora.jpg"
       }
     ],
     "Friday": [
@@ -617,7 +617,7 @@
       },
       {
         "page": "https://www.aniquim.com.br/anime/a-certain-dark-item/17143",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F17143%2Flarge-9907eb149756.webp&w=3840&q=75",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F17143%2Flarge-a376fa632f25.webp&w=3840&q=75",
         "time": "12:30",
         "episodio_atual": "1",
         "tags_generos": "Ação, Fantasia, Ficção Científica",
@@ -635,7 +635,7 @@
       },
       {
         "page": "https://www.aniquim.com.br/anime/firefly-wedding/20144",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20144%2Flarge-3b2f26896d63.webp&w=3840&q=75",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20144%2Flarge-a80bcd67c760.webp&w=3840&q=75",
         "time": "13:00",
         "episodio_atual": "1",
         "tags_generos": "Romance",
@@ -871,24 +871,6 @@
         "local_image_path": "imagens_animes\\#I'm Looking For Zombie.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/black-clover-2a-temporada/5580",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F5580%2Flarge-cd19ff7442eb.webp&w=3840&q=75",
-        "time": "12:00",
-        "episodio_atual": "2",
-        "tags_generos": "Ação, Fantasia",
-        "titulo": "Black Clover 2nd Season",
-        "titulo_en": "Black Clover - 2ª Temporada",
-        "titulo_jp": "ブラッククローバー 2nd season",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Black Clover - 2ª Temporada.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/vertex-force/18997",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F18997%2Flarge-88770b98d9e8.webp&w=3840&q=75",
         "time": "12:00",
@@ -905,6 +887,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\Vertex Force.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/black-clover-2a-temporada/5580",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F5580%2Flarge-cd19ff7442eb.webp&w=3840&q=75",
+        "time": "12:00",
+        "episodio_atual": "2",
+        "tags_generos": "Ação, Fantasia",
+        "titulo": "Black Clover 2nd Season",
+        "titulo_en": "Black Clover - 2ª Temporada",
+        "titulo_jp": "ブラッククローバー 2nd season",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Black Clover - 2ª Temporada.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/the-seven-knights-of-the-marronnier-kingdom/24854",
@@ -1154,24 +1154,6 @@
         "local_image_path": "imagens_animes\\Full Clearing Another World under a Goddess with Zero Believers.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/overgeared/24861",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24861%2Flarge-b82a19078884.webp&w=3840&q=75",
-        "time": "11:30",
-        "episodio_atual": "3",
-        "tags_generos": "Ação, Fantasia",
-        "titulo": "Tempal: Item no Chikara",
-        "titulo_en": "Overgeared",
-        "titulo_jp": "テムパル ～アイテムの力～",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00384004",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Overgeared.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/even-though-im-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fiance/1173",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F1173%2Flarge-45b72c1ba08b.webp&w=3840&q=75",
         "time": "11:30",
@@ -1188,6 +1170,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/overgeared/24861",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24861%2Flarge-b82a19078884.webp&w=3840&q=75",
+        "time": "11:30",
+        "episodio_atual": "3",
+        "tags_generos": "Ação, Fantasia",
+        "titulo": "Tempal: Item no Chikara",
+        "titulo_en": "Overgeared",
+        "titulo_jp": "テムパル ～アイテムの力～",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00384004",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Overgeared.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world-3a-temporada/6890",
@@ -1226,20 +1226,8 @@
         "local_image_path": "imagens_animes\\Hotel Inhumans - 2ª Temporada.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/from-far-away/17783",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F17783%2Flarge-1fa958d95d4b.webp&w=3840&q=75",
-        "time": "13:00",
-        "episodio_atual": "2",
-        "tags_generos": "Fantasia, Aventura, Romance",
-        "titulo": "Kanata kara",
-        "titulo_en": "From Far Away",
-        "titulo_jp": "彼方から",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\From Far Away.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/dragon-ball-super-beerus/12905",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F12905%2Flarge-68649a136957.webp&w=3840&q=75",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F12905%2Flarge-e08b8d2e8bd3.webp&w=3840&q=75",
         "time": "13:00",
         "episodio_atual": "1",
         "tags_generos": "Ação, Fantasia, Aventura",
@@ -1254,6 +1242,18 @@
           }
         ],
         "local_image_path": "imagens_animes\\Dragon Ball Super Beerus.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/from-far-away/17783",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F17783%2Flarge-1fa958d95d4b.webp&w=3840&q=75",
+        "time": "13:00",
+        "episodio_atual": "2",
+        "tags_generos": "Fantasia, Aventura, Romance",
+        "titulo": "Kanata kara",
+        "titulo_en": "From Far Away",
+        "titulo_jp": "彼方から",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\From Far Away.jpg"
       }
     ]
   }
