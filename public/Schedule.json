@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T11:40:48.502Z",
+  "updatedAt": "2026-10-09T16:30:54.319Z",
   "schedule": {
     "Monday": [
       {
@@ -598,24 +598,6 @@
         "local_image_path": "imagens_animes\\Welsh & Shedar.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/firefly-wedding/20144",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20144%2Flarge-3b2f26896d63.webp&w=3840&q=75",
-        "time": "11:30",
-        "episodio_atual": "1",
-        "tags_generos": "Romance",
-        "titulo": "Hotaru no Yomeiri",
-        "titulo_en": "Firefly Wedding",
-        "titulo_jp": "ホタルの嫁入り",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00383999",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Firefly Wedding.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/diarios-de-uma-apotecaria-3a-temporada-parte-1/20237",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20237%2Flarge-19383639bfc7.webp&w=3840&q=75",
         "time": "12:00",
@@ -650,6 +632,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\A Certain Dark Item.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/firefly-wedding/20144",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20144%2Flarge-3b2f26896d63.webp&w=3840&q=75",
+        "time": "13:00",
+        "episodio_atual": "1",
+        "tags_generos": "Romance",
+        "titulo": "Hotaru no Yomeiri",
+        "titulo_en": "Firefly Wedding",
+        "titulo_jp": "ホタルの嫁入り",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00383999",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Firefly Wedding.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/tougen-anki-arco-das-cataratas-de-kegon-em-nikko/10719",
