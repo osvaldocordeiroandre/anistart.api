@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T23:52:55.748Z",
+  "updatedAt": "2026-10-09T04:53:31.781Z",
   "schedule": {
     "Monday": [
       {
@@ -378,7 +378,7 @@
         "page": "https://www.aniquim.com.br/anime/fx-fighter-kurumi-chan/18112",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F18112%2Flarge-5af50a924f8c.webp&w=3840&q=75",
         "time": "09:30",
-        "episodio_atual": "2",
+        "episodio_atual": "3",
         "tags_generos": "Drama, Suspense, Slice of Life",
         "titulo": "FX Senshi Kurumi-chan",
         "titulo_en": "FX Fighter Kurumi-chan",
@@ -396,7 +396,7 @@
         "page": "https://www.aniquim.com.br/anime/parede-de-gelo-2a-temporada/24987",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24987%2Flarge-5d480bfc2707.webp&w=3840&q=75",
         "time": "12:30",
-        "episodio_atual": "2",
+        "episodio_atual": "3",
         "tags_generos": "Drama, Comédia, Romance",
         "titulo": "Koori no Jouheki 2nd Season",
         "titulo_en": "Parede de Gelo - 2ª Temporada",
@@ -411,22 +411,10 @@
         "local_image_path": "imagens_animes\\Parede de Gelo - 2ª Temporada.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-cf524bc9468d.webp&w=3840&q=75",
-        "time": "13:00",
-        "episodio_atual": "1",
-        "tags_generos": "Slice of Life",
-        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/the-exiled-heavy-knight-knows-how-to-game-the-system/20368",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20368%2Flarge-584d7ce331f8.webp&w=3840&q=75",
         "time": "13:00",
-        "episodio_atual": "15",
+        "episodio_atual": "16",
         "tags_generos": "Ação, Fantasia, Aventura",
         "titulo": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
         "titulo_en": "The Exiled Heavy Knight Knows How to Game the System",
@@ -441,10 +429,22 @@
         "local_image_path": "imagens_animes\\The Exiled Heavy Knight Knows How to Game the System.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-cf524bc9468d.webp&w=3840&q=75",
+        "time": "13:00",
+        "episodio_atual": "2",
+        "tags_generos": "Slice of Life",
+        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/with-vengeance-sincerely-your-broken-saintess-2a-temporada/24800",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24800%2Flarge-1d735350dd1c.webp&w=3840&q=75",
         "time": "13:00",
-        "episodio_atual": "2",
+        "episodio_atual": "3",
         "tags_generos": "Fantasia, Romance",
         "titulo": "Kizu darake Seijo yori Houfuku wo Komete Season 2",
         "titulo_en": "With Vengeance, Sincerely, Your Broken Saintess - 2ª Temporada",
@@ -456,7 +456,7 @@
         "page": "https://www.aniquim.com.br/anime/the-iceblade-sorcerer-shall-rule-the-world-ii-2a-temporada/24839",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24839%2Flarge-de9223aebabe.webp&w=3840&q=75",
         "time": "14:00",
-        "episodio_atual": "1",
+        "episodio_atual": "2",
         "tags_generos": "Ação, Fantasia",
         "titulo": "Hyouken no Majutsushi ga Sekai wo Suberu II",
         "titulo_en": "The Iceblade Sorcerer Shall Rule the World II - 2ª Temporada",
@@ -471,16 +471,28 @@
         "local_image_path": "imagens_animes\\The Iceblade Sorcerer Shall Rule the World II - 2ª Temporada.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/girls-und-panzer-das-finale-parte-5/10319",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F10319%2Flarge-cfb5bdce5d53.webp&w=3840&q=75",
+        "page": "https://www.aniquim.com.br/anime/rascal-does-not-dream-of-a-dear-friend/14449",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F14449%2Flarge-6f92a782fdaf.webp&w=3840&q=75",
         "time": "21:00",
         "episodio_atual": "1",
-        "tags_generos": null,
-        "titulo": "Girls & Panzer: Saishuushou Part 5",
-        "titulo_en": "Girls und Panzer das Finale - Parte 5",
-        "titulo_jp": "『ガールズ＆パンツァー 最終章』第5話",
+        "tags_generos": "Drama, Romance, Sobrenatural",
+        "titulo": "Seishun Buta Yarou wa Dear Friend no Yume wo Minai",
+        "titulo_en": "Rascal Does Not Dream of a Dear Friend",
+        "titulo_jp": "青春ブタ野郎はディアフレンドの夢を見ない",
         "plataformas": [],
-        "local_image_path": "imagens_animes\\Girls und Panzer das Finale - Parte 5.jpg"
+        "local_image_path": "imagens_animes\\Rascal Does Not Dream of a Dear Friend.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/bang-dream-ave-mujica-prima-aurora/2137",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F2137%2Flarge-1aad1e447429.webp&w=3840&q=75",
+        "time": "21:00",
+        "episodio_atual": "1",
+        "tags_generos": "Drama, Música",
+        "titulo": "BanG Dream! Ave Mujica: Prima Aurora",
+        "titulo_en": "BanG Dream! Ave Mujica: Prima Aurora",
+        "titulo_jp": "BanG Dream! Ave Mujica prima aurora",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\BanG Dream! Ave Mujica Prima Aurora.jpg"
       }
     ],
     "Friday": [
@@ -841,24 +853,6 @@
         "local_image_path": "imagens_animes\\Horror Collector.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/im-looking-for-zombie/15646",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15646%2Flarge-91b1e205ff7b.webp&w=3840&q=75",
-        "time": "12:00",
-        "episodio_atual": "2",
-        "tags_generos": "Comédia, Aventura",
-        "titulo": "#Zombie Sagashitemasu",
-        "titulo_en": "#I'm Looking For Zombie",
-        "titulo_jp": "#ゾンビさがしてます",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00383996/im-looking-for-a-zombie",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\#I'm Looking For Zombie.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/the-seven-knights-of-the-marronnier-kingdom/24854",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24854%2Flarge-446d1653e51c.webp&w=3840&q=75",
         "time": "12:00",
@@ -893,6 +887,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\Vertex Force.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/im-looking-for-zombie/15646",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15646%2Flarge-91b1e205ff7b.webp&w=3840&q=75",
+        "time": "12:00",
+        "episodio_atual": "2",
+        "tags_generos": "Comédia, Aventura",
+        "titulo": "#Zombie Sagashitemasu",
+        "titulo_en": "#I'm Looking For Zombie",
+        "titulo_jp": "#ゾンビさがしてます",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00383996/im-looking-for-a-zombie",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\#I'm Looking For Zombie.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/black-clover-2a-temporada/5580",
@@ -931,6 +943,18 @@
         "local_image_path": "imagens_animes\\Magical Explorer.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/even-the-student-council-has-its-holes/10946",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F10946%2Flarge-f1479b59fcaf.webp&w=3840&q=75",
+        "time": "14:00",
+        "episodio_atual": "2",
+        "tags_generos": "Comédia",
+        "titulo": "Seitokai ni mo Ana wa Aru!",
+        "titulo_en": "Even the Student Council Has Its Holes!",
+        "titulo_jp": "生徒会にも穴はある！",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\Even the Student Council Has Its Holes!.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/ranma-2024-3a-temporada/722",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F722%2Flarge-df1d01887b6c.webp&w=3840&q=75",
         "time": "14:00",
@@ -947,18 +971,6 @@
           }
         ],
         "local_image_path": "imagens_animes\\Ranma ½ (2024) - 3ª Temporada.jpg"
-      },
-      {
-        "page": "https://www.aniquim.com.br/anime/even-the-student-council-has-its-holes/10946",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F10946%2Flarge-f1479b59fcaf.webp&w=3840&q=75",
-        "time": "14:00",
-        "episodio_atual": "2",
-        "tags_generos": "Comédia",
-        "titulo": "Seitokai ni mo Ana wa Aru!",
-        "titulo_en": "Even the Student Council Has Its Holes!",
-        "titulo_jp": "生徒会にも穴はある！",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\Even the Student Council Has Its Holes!.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/magic-repo-man/9389",
@@ -1076,24 +1088,6 @@
         "local_image_path": "imagens_animes\\Aoashi - 2ª Temporada.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/uncles-obsession-with-cute-things/12482",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F12482%2Flarge-8287e2bf818a.webp&w=3840&q=75",
-        "time": "11:00",
-        "episodio_atual": "2",
-        "tags_generos": "Comédia, Slice of Life",
-        "titulo": "Ojisan wa Kawaii Mono ga Osuki.",
-        "titulo_en": "Uncle’s Obsession with Cute Things",
-        "titulo_jp": "おじさんはカワイイものがお好き。",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00385445/uncles-obsession-with-cute-things",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Uncle’s Obsession with Cute Things.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/reborn-as-a-space-mercenary-i-woke-up-piloting-the-strongest-starship/3334",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F3334%2Flarge-2fce4413dc6f.webp&w=3840&q=75",
         "time": "11:00",
@@ -1110,6 +1104,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\Reborn as a Space Mercenary I Woke Up Piloting the Strongest Starship!.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/uncles-obsession-with-cute-things/12482",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F12482%2Flarge-8287e2bf818a.webp&w=3840&q=75",
+        "time": "11:00",
+        "episodio_atual": "2",
+        "tags_generos": "Comédia, Slice of Life",
+        "titulo": "Ojisan wa Kawaii Mono ga Osuki.",
+        "titulo_en": "Uncle’s Obsession with Cute Things",
+        "titulo_jp": "おじさんはカワイイものがお好き。",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00385445/uncles-obsession-with-cute-things",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Uncle’s Obsession with Cute Things.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/tank-chair/7059",
@@ -1142,24 +1154,6 @@
         "local_image_path": "imagens_animes\\Full Clearing Another World under a Goddess with Zero Believers.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/even-though-im-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fiance/1173",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F1173%2Flarge-45b72c1ba08b.webp&w=3840&q=75",
-        "time": "11:30",
-        "episodio_atual": "2",
-        "tags_generos": "Fantasia, Comédia, Romance",
-        "titulo": "Yowaki Max Reijou nanoni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta",
-        "titulo_en": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
-        "titulo_jp": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00365562",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/overgeared/24861",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24861%2Flarge-b82a19078884.webp&w=3840&q=75",
         "time": "11:30",
@@ -1176,6 +1170,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\Overgeared.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/even-though-im-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fiance/1173",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F1173%2Flarge-45b72c1ba08b.webp&w=3840&q=75",
+        "time": "11:30",
+        "episodio_atual": "2",
+        "tags_generos": "Fantasia, Comédia, Romance",
+        "titulo": "Yowaki Max Reijou nanoni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta",
+        "titulo_en": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
+        "titulo_jp": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00365562",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world-3a-temporada/6890",
