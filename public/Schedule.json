@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T05:15:17.235Z",
+  "updatedAt": "2026-10-15T10:02:50.742Z",
   "schedule": {
     "Monday": [
       {
@@ -531,7 +531,7 @@
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F14305%2Flarge-fbf75e425cfc.webp&w=3840&q=75",
         "time": "04:00",
         "episodio_atual": "3",
-        "tags_generos": "Ação, Drama",
+        "tags_generos": "Ação, Drama, Sobrenatural",
         "titulo": "Tokyo Revengers: Santen Sensou-hen",
         "titulo_en": "Tokyo Revengers: War of the Three Titan Arc",
         "titulo_jp": "東京リベンジャーズ 三天戦争編",
@@ -1065,24 +1065,6 @@
         "local_image_path": "imagens_animes\\Mission Yozakura Family - 2ª Temporada Parte 2.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/ace-of-diamond-act-ii-2a-temporada-parte-2/24976",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24976%2Flarge-238dba0abea9.webp&w=3840&q=75",
-        "time": "06:00",
-        "episodio_atual": "2",
-        "tags_generos": "Esportes",
-        "titulo": "Diamond no Ace: Act II Second Season Part 2",
-        "titulo_en": "Ace of Diamond Act II - 2ª Temporada Parte 2",
-        "titulo_jp": "ダイヤのA actⅡ Second Season 第2クール",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GYX0MZ58R",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Ace of Diamond Act II - 2ª Temporada Parte 2.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/aoashi-2a-temporada/15160",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15160%2Flarge-a33a7521223c.webp&w=3840&q=75",
         "time": "06:00",
@@ -1099,6 +1081,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\Aoashi - 2ª Temporada.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/ace-of-diamond-act-ii-2a-temporada-parte-2/24976",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24976%2Flarge-238dba0abea9.webp&w=3840&q=75",
+        "time": "06:00",
+        "episodio_atual": "2",
+        "tags_generos": "Esportes",
+        "titulo": "Diamond no Ace: Act II Second Season Part 2",
+        "titulo_en": "Ace of Diamond Act II - 2ª Temporada Parte 2",
+        "titulo_jp": "ダイヤのA actⅡ Second Season 第2クール",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GYX0MZ58R",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Ace of Diamond Act II - 2ª Temporada Parte 2.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/uncles-obsession-with-cute-things/12482",
@@ -1141,7 +1141,7 @@
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F7059%2Flarge-33abbfea3163.webp&w=3840&q=75",
         "time": "11:30",
         "episodio_atual": "3",
-        "tags_generos": "Ação",
+        "tags_generos": "Ação, Ficção Científica",
         "titulo": "Tank Chair",
         "titulo_en": "Tank Chair",
         "titulo_jp": "TANK CHAIR-戦車椅子-",
