@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T14:23:50.430Z",
+  "updatedAt": "2026-10-16T05:03:10.077Z",
   "schedule": {
     "Monday": [
       {
@@ -408,7 +408,7 @@
         "page": "https://www.aniquim.com.br/anime/fx-fighter-kurumi-chan/18112",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F18112%2Flarge-0096215c1836.webp&w=3840&q=75",
         "time": "09:30",
-        "episodio_atual": "3",
+        "episodio_atual": "4",
         "tags_generos": "Drama, Suspense, Slice of Life",
         "titulo": "FX Senshi Kurumi-chan",
         "titulo_en": "FX Fighter Kurumi-chan",
@@ -426,7 +426,7 @@
         "page": "https://www.aniquim.com.br/anime/parede-de-gelo-2a-temporada/24987",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24987%2Flarge-5d480bfc2707.webp&w=3840&q=75",
         "time": "12:30",
-        "episodio_atual": "3",
+        "episodio_atual": "4",
         "tags_generos": "Drama, Comédia, Romance",
         "titulo": "Koori no Jouheki 2nd Season",
         "titulo_en": "Parede de Gelo - 2ª Temporada",
@@ -441,10 +441,22 @@
         "local_image_path": "imagens_animes\\Parede de Gelo - 2ª Temporada.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-ba550ec45e42.webp&w=3840&q=75",
+        "time": "13:00",
+        "episodio_atual": "3",
+        "tags_generos": "Slice of Life",
+        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/the-exiled-heavy-knight-knows-how-to-game-the-system/20368",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20368%2Flarge-584d7ce331f8.webp&w=3840&q=75",
         "time": "13:00",
-        "episodio_atual": "16",
+        "episodio_atual": "17",
         "tags_generos": "Ação, Fantasia, Aventura",
         "titulo": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
         "titulo_en": "The Exiled Heavy Knight Knows How to Game the System",
@@ -459,22 +471,10 @@
         "local_image_path": "imagens_animes\\The Exiled Heavy Knight Knows How to Game the System.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-ba550ec45e42.webp&w=3840&q=75",
-        "time": "13:00",
-        "episodio_atual": "2",
-        "tags_generos": "Slice of Life",
-        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/with-vengeance-sincerely-your-broken-saintess-2a-temporada/24800",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24800%2Flarge-1d735350dd1c.webp&w=3840&q=75",
         "time": "13:00",
-        "episodio_atual": "3",
+        "episodio_atual": "4",
         "tags_generos": "Fantasia, Drama, Romance",
         "titulo": "Kizu darake Seijo yori Houfuku wo Komete Season 2",
         "titulo_en": "With Vengeance, Sincerely, Your Broken Saintess - 2ª Temporada",
@@ -486,7 +486,7 @@
         "page": "https://www.aniquim.com.br/anime/the-iceblade-sorcerer-shall-rule-the-world-ii-2a-temporada/24839",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24839%2Flarge-de9223aebabe.webp&w=3840&q=75",
         "time": "14:00",
-        "episodio_atual": "2",
+        "episodio_atual": "3",
         "tags_generos": "Ação, Fantasia",
         "titulo": "Hyouken no Majutsushi ga Sekai wo Suberu II",
         "titulo_en": "The Iceblade Sorcerer Shall Rule the World II - 2ª Temporada",
@@ -501,28 +501,16 @@
         "local_image_path": "imagens_animes\\The Iceblade Sorcerer Shall Rule the World II - 2ª Temporada.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/rascal-does-not-dream-of-a-dear-friend/14449",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F14449%2Flarge-6f92a782fdaf.webp&w=3840&q=75",
+        "page": "https://www.aniquim.com.br/anime/made-in-abyss-mezameru-shinpi/12944",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F12944%2Flarge-277e833a8bbe.webp&w=3840&q=75",
         "time": "21:00",
         "episodio_atual": null,
-        "tags_generos": "Drama, Romance, Sobrenatural",
-        "titulo": "Seishun Buta Yarou wa Dear Friend no Yume wo Minai",
-        "titulo_en": "Rascal Does Not Dream of a Dear Friend",
-        "titulo_jp": "青春ブタ野郎はディアフレンドの夢を見ない",
+        "tags_generos": "Fantasia, Ficção Científica, Drama",
+        "titulo": "Made in Abyss: Mezameru Shinpi",
+        "titulo_en": "Made in Abyss: Mezameru Shinpi",
+        "titulo_jp": "メイドインアビス 目覚める神秘",
         "plataformas": [],
-        "local_image_path": "imagens_animes\\Rascal Does Not Dream of a Dear Friend.jpg"
-      },
-      {
-        "page": "https://www.aniquim.com.br/anime/bang-dream-ave-mujica-prima-aurora/2137",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F2137%2Flarge-1aad1e447429.webp&w=3840&q=75",
-        "time": "21:00",
-        "episodio_atual": null,
-        "tags_generos": "Drama, Música",
-        "titulo": "BanG Dream! Ave Mujica: Prima Aurora",
-        "titulo_en": "BanG Dream! Ave Mujica: Prima Aurora",
-        "titulo_jp": "BanG Dream! Ave Mujica prima aurora",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\BanG Dream! Ave Mujica Prima Aurora.jpg"
+        "local_image_path": "imagens_animes\\Made in Abyss Mezameru Shinpi.jpg"
       }
     ],
     "Friday": [
