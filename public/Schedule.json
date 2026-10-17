@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T20:19:39.719Z",
+  "updatedAt": "2026-10-17T22:31:27.244Z",
   "schedule": {
     "Monday": [
       {
@@ -441,18 +441,6 @@
         "local_image_path": "imagens_animes\\Parede de Gelo - 2ª Temporada.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-ba550ec45e42.webp&w=3840&q=75",
-        "time": "13:00",
-        "episodio_atual": "3",
-        "tags_generos": "Slice of Life",
-        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/the-exiled-heavy-knight-knows-how-to-game-the-system/20368",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20368%2Flarge-584d7ce331f8.webp&w=3840&q=75",
         "time": "13:00",
@@ -469,6 +457,18 @@
           }
         ],
         "local_image_path": "imagens_animes\\The Exiled Heavy Knight Knows How to Game the System.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-ba550ec45e42.webp&w=3840&q=75",
+        "time": "13:00",
+        "episodio_atual": "3",
+        "tags_generos": "Slice of Life",
+        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/with-vengeance-sincerely-your-broken-saintess-2a-temporada/24800",
