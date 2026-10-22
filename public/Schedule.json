@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T22:22:17.340Z",
+  "updatedAt": "2026-10-22T05:47:51.742Z",
   "schedule": {
     "Monday": [
       {
@@ -247,28 +247,10 @@
     ],
     "Wednesday": [
       {
-        "page": "https://www.aniquim.com.br/anime/the-worlds-strongest-witch/24776",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24776%2Flarge-fde88e13f98d.webp&w=3840&q=75",
-        "time": "10:00",
-        "episodio_atual": "3",
-        "tags_generos": "Fantasia, Comédia, Aventura",
-        "titulo": "Sekai Saikyou no Majo, Hajimemashita",
-        "titulo_en": "The World's Strongest Witch",
-        "titulo_jp": "世界最強の魔女、始めました",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00384009",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\The World's Strongest Witch.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/sasaki-and-peeps-2a-temporada/19913",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F19913%2Flarge-2e38c30dbd25.webp&w=3840&q=75",
         "time": "10:00",
-        "episodio_atual": "3",
+        "episodio_atual": "4",
         "tags_generos": "Ação, Fantasia, Drama",
         "titulo": "Sasaki to Pii-chan Season 2",
         "titulo_en": "Sasaki and Peeps - 2ª Temporada",
@@ -283,10 +265,28 @@
         "local_image_path": "imagens_animes\\Sasaki and Peeps - 2ª Temporada.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/the-worlds-strongest-witch/24776",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24776%2Flarge-fde88e13f98d.webp&w=3840&q=75",
+        "time": "10:00",
+        "episodio_atual": "4",
+        "tags_generos": "Fantasia, Comédia, Aventura",
+        "titulo": "Sekai Saikyou no Majo, Hajimemashita",
+        "titulo_en": "The World's Strongest Witch",
+        "titulo_jp": "世界最強の魔女、始めました",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00384009",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\The World's Strongest Witch.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/the-detective-is-already-dead-2a-temporada/7562",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F7562%2Flarge-fe3036541aca.webp&w=3840&q=75",
         "time": "10:30",
-        "episodio_atual": "3",
+        "episodio_atual": "4",
         "tags_generos": "Drama, Comédia, Romance",
         "titulo": "Tantei wa Mou, Shindeiru. Season 2",
         "titulo_en": "The Detective Is Already Dead - 2ª Temporada",
@@ -304,7 +304,7 @@
         "page": "https://www.aniquim.com.br/anime/guerreiras-magicas-de-rayearth-2026/15897",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15897%2Flarge-11ad35bdda51.webp&w=3840&q=75",
         "time": "12:15",
-        "episodio_atual": "3",
+        "episodio_atual": "4",
         "tags_generos": "Fantasia, Aventura",
         "titulo": "Magic Knight Rayearth (2026)",
         "titulo_en": "Guerreiras Mágicas de Rayearth (2026)",
@@ -322,7 +322,7 @@
         "page": "https://www.aniquim.com.br/anime/reincarnated-as-a-sword-2a-temporada/6281",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F6281%2Flarge-5690f108c48e.webp&w=3840&q=75",
         "time": "12:30",
-        "episodio_atual": "4",
+        "episodio_atual": "5",
         "tags_generos": "Ação, Fantasia, Aventura",
         "titulo": "Tensei shitara Ken deshita II",
         "titulo_en": "Reincarnated as a Sword - 2ª Temporada",
@@ -334,7 +334,7 @@
         "page": "https://www.aniquim.com.br/anime/the-prince-of-tennis-ii-u-17-world-cup-final-member-selection-match/2096",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F2096%2Flarge-fc2912687a6f.webp&w=3840&q=75",
         "time": "13:00",
-        "episodio_atual": "4",
+        "episodio_atual": "5",
         "tags_generos": "Esportes",
         "titulo": "Shin Tennis no Oujisama: U-17 World Cup - Kesshou Member Ketteisen",
         "titulo_en": "The Prince of Tennis II: U-17 World Cup - Final Member Selection Match",
@@ -352,7 +352,7 @@
         "page": "https://www.aniquim.com.br/anime/dandivine/24865",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24865%2Flarge-b532196a6024.webp&w=3840&q=75",
         "time": "14:00",
-        "episodio_atual": "3",
+        "episodio_atual": "4",
         "tags_generos": "Ação",
         "titulo": "Juuou Mujin Dandivine",
         "titulo_en": "Dandivine",
@@ -370,7 +370,7 @@
         "page": "https://www.aniquim.com.br/anime/a-returners-magic-should-be-special-2a-temporada/14740",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F14740%2Flarge-340629448ab0.webp&w=3840&q=75",
         "time": "14:15",
-        "episodio_atual": "3",
+        "episodio_atual": "4",
         "tags_generos": "Ação, Fantasia",
         "titulo": "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
         "titulo_en": "A Returner's Magic Should Be Special - 2ª Temporada",
