@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T06:29:16.636Z",
+  "updatedAt": "2026-10-25T05:20:39.739Z",
   "schedule": {
     "Monday": [
       {
@@ -714,7 +714,7 @@
         "page": "https://www.aniquim.com.br/anime/the-vermilion-mask/22987",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F22987%2Flarge-3388d1d80c33.webp&w=3840&q=75",
         "time": "06:30",
-        "episodio_atual": "3",
+        "episodio_atual": "4",
         "tags_generos": "Ação, Fantasia",
         "titulo": "Shuiro no Kamen",
         "titulo_en": "The Vermilion Mask",
@@ -732,7 +732,7 @@
         "page": "https://www.aniquim.com.br/anime/detetive-conan/6722",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F6722%2Flarge-0eab13f61e85.webp&w=3840&q=75",
         "time": "08:30",
-        "episodio_atual": "1218",
+        "episodio_atual": "1219",
         "tags_generos": "Drama, Comédia, Aventura",
         "titulo": "Meitantei Conan",
         "titulo_en": "Detetive Conan",
@@ -755,7 +755,7 @@
         "page": "https://www.aniquim.com.br/anime/romelia-war-chronicle/11236",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F11236%2Flarge-676a93f08bc7.webp&w=3840&q=75",
         "time": "10:00",
-        "episodio_atual": "4",
+        "episodio_atual": "5",
         "tags_generos": "Ação, Fantasia",
         "titulo": "Romelia Senki",
         "titulo_en": "Romelia War Chronicle",
@@ -773,7 +773,7 @@
         "page": "https://www.aniquim.com.br/anime/a-tale-of-the-secret-saint/18664",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F18664%2Flarge-fbea54c9775b.webp&w=3840&q=75",
         "time": "10:00",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Ação, Fantasia, Aventura",
         "titulo": "Tensei shita Daiseijo wa, Seijo de Aru Koto wo Hitakakusu",
         "titulo_en": "A Tale of the Secret Saint",
@@ -791,7 +791,7 @@
         "page": "https://www.aniquim.com.br/anime/a-wild-last-boss-appeared-2a-temporada/11637",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F11637%2Flarge-8c6690b3d75a.webp&w=3840&q=75",
         "time": "10:30",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Ação, Fantasia, Aventura",
         "titulo": "Yasei no Last Boss ga Arawareta! 2nd Season",
         "titulo_en": "A Wild Last Boss Appeared! - 2ª Temporada",
@@ -806,28 +806,10 @@
         "local_image_path": "imagens_animes\\A Wild Last Boss Appeared! - 2ª Temporada.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/black-clover-2a-temporada/5580",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F5580%2Flarge-cd19ff7442eb.webp&w=3840&q=75",
-        "time": "12:00",
-        "episodio_atual": "4",
-        "tags_generos": "Ação, Fantasia",
-        "titulo": "Black Clover 2nd Season",
-        "titulo_en": "Black Clover - 2ª Temporada",
-        "titulo_jp": "ブラッククローバー 2nd season",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Black Clover - 2ª Temporada.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/im-looking-for-zombie/15646",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15646%2Flarge-91b1e205ff7b.webp&w=3840&q=75",
         "time": "12:00",
-        "episodio_atual": "4",
+        "episodio_atual": "5",
         "tags_generos": "Comédia, Aventura",
         "titulo": "#Zombie Sagashitemasu",
         "titulo_en": "#I'm Looking For Zombie",
@@ -842,10 +824,28 @@
         "local_image_path": "imagens_animes\\#I'm Looking For Zombie.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/black-clover-2a-temporada/5580",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F5580%2Flarge-cd19ff7442eb.webp&w=3840&q=75",
+        "time": "12:00",
+        "episodio_atual": "5",
+        "tags_generos": "Ação, Fantasia",
+        "titulo": "Black Clover 2nd Season",
+        "titulo_en": "Black Clover - 2ª Temporada",
+        "titulo_jp": "ブラッククローバー 2nd season",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GRE50KV36/black-clover",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Black Clover - 2ª Temporada.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/the-seven-knights-of-the-marronnier-kingdom/24854",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24854%2Flarge-446d1653e51c.webp&w=3840&q=75",
         "time": "12:00",
-        "episodio_atual": "4",
+        "episodio_atual": "5",
         "tags_generos": "Fantasia, Comédia, Romance",
         "titulo": "Marronnier Oukoku no Shichinin no Kishi",
         "titulo_en": "The Seven Knights of the Marronnier Kingdom",
@@ -863,7 +863,7 @@
         "page": "https://www.aniquim.com.br/anime/vertex-force/18997",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F18997%2Flarge-88770b98d9e8.webp&w=3840&q=75",
         "time": "13:00",
-        "episodio_atual": "4",
+        "episodio_atual": "5",
         "tags_generos": "Ação, Ficção Científica",
         "titulo": "Vertex Force",
         "titulo_en": "Vertex Force",
@@ -881,7 +881,7 @@
         "page": "https://www.aniquim.com.br/anime/magical-explorer/12096",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F12096%2Flarge-ccf12d7badb6.webp&w=3840&q=75",
         "time": "13:30",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Fantasia, Comédia, Aventura",
         "titulo": "Magical★Explorer",
         "titulo_en": "Magical Explorer",
@@ -899,7 +899,7 @@
         "page": "https://www.aniquim.com.br/anime/ranma-2024-3a-temporada/722",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F722%2Flarge-df1d01887b6c.webp&w=3840&q=75",
         "time": "14:00",
-        "episodio_atual": "4",
+        "episodio_atual": "5",
         "tags_generos": "Ação, Comédia, Romance",
         "titulo": "Ranma ½ (2024) 3rd Season",
         "titulo_en": "Ranma ½ (2024) - 3ª Temporada",
@@ -917,7 +917,7 @@
         "page": "https://www.aniquim.com.br/anime/even-the-student-council-has-its-holes/10946",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F10946%2Flarge-f1479b59fcaf.webp&w=3840&q=75",
         "time": "14:00",
-        "episodio_atual": "4",
+        "episodio_atual": "5",
         "tags_generos": "Comédia, Romance, Slice of Life",
         "titulo": "Seitokai ni mo Ana wa Aru!",
         "titulo_en": "Even the Student Council Has Its Holes!",
@@ -929,7 +929,7 @@
         "page": "https://www.aniquim.com.br/anime/horror-collector/22059",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F22059%2Flarge-b1cc78583c29.webp&w=3840&q=75",
         "time": "14:15",
-        "episodio_atual": "3",
+        "episodio_atual": "4",
         "tags_generos": "Terror, Sobrenatural, Mistério",
         "titulo": "Kyoufu Collector",
         "titulo_en": "Horror Collector",
@@ -947,7 +947,7 @@
         "page": "https://www.aniquim.com.br/anime/magic-repo-man/9389",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F9389%2Flarge-45c414fef9a1.webp&w=3840&q=75",
         "time": "15:00",
-        "episodio_atual": "4",
+        "episodio_atual": "5",
         "tags_generos": "Ação, Fantasia",
         "titulo": "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu",
         "titulo_en": "Magic Repo Man",
@@ -965,7 +965,7 @@
         "page": "https://www.aniquim.com.br/anime/star-detective-precure/6263",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F6263%2Flarge.webp&w=3840&q=75",
         "time": "21:30",
-        "episodio_atual": "39",
+        "episodio_atual": "40",
         "tags_generos": "Ação, Fantasia, Mistério",
         "titulo": "Meitantei Precure!",
         "titulo_en": "Star Detective Precure!",
