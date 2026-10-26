@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T12:47:00.398Z",
+  "updatedAt": "2026-10-26T16:19:52.954Z",
   "schedule": {
     "Monday": [
       {
@@ -423,6 +423,18 @@
         "local_image_path": "imagens_animes\\Parede de Gelo - 2ª Temporada.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-ba550ec45e42.webp&w=3840&q=75",
+        "time": "13:00",
+        "episodio_atual": "4",
+        "tags_generos": "Slice of Life",
+        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/the-exiled-heavy-knight-knows-how-to-game-the-system/20368",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20368%2Flarge-584d7ce331f8.webp&w=3840&q=75",
         "time": "13:00",
@@ -439,18 +451,6 @@
           }
         ],
         "local_image_path": "imagens_animes\\The Exiled Heavy Knight Knows How to Game the System.jpg"
-      },
-      {
-        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-ba550ec45e42.webp&w=3840&q=75",
-        "time": "13:00",
-        "episodio_atual": "4",
-        "tags_generos": "Slice of Life",
-        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/with-vengeance-sincerely-your-broken-saintess-2a-temporada/24800",
@@ -1118,24 +1118,6 @@
         "local_image_path": "imagens_animes\\Tank Chair.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/even-though-im-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fiance/1173",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F1173%2Flarge-45b72c1ba08b.webp&w=3840&q=75",
-        "time": "11:30",
-        "episodio_atual": "5",
-        "tags_generos": "Fantasia, Comédia, Romance",
-        "titulo": "Yowaki Max Reijou nanoni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta",
-        "titulo_en": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
-        "titulo_jp": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00365562",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/full-clearing-another-world-under-a-goddess-with-zero-believers/11512",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F11512%2Flarge-6ce721d5405a.webp&w=3840&q=75",
         "time": "11:30",
@@ -1170,6 +1152,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\Overgeared.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/even-though-im-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fiance/1173",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F1173%2Flarge-45b72c1ba08b.webp&w=3840&q=75",
+        "time": "11:30",
+        "episodio_atual": "5",
+        "tags_generos": "Fantasia, Comédia, Romance",
+        "titulo": "Yowaki Max Reijou nanoni, Ratsuwan Konyakusha-sama no Kake ni Notte Shimatta",
+        "titulo_en": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé",
+        "titulo_jp": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00365562",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fiancé.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world-3a-temporada/6890",
