@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T19:14:07.257Z",
+  "updatedAt": "2026-10-29T23:20:36.858Z",
   "schedule": {
     "Monday": [
       {
@@ -788,24 +788,6 @@
         "local_image_path": "imagens_animes\\A Wild Last Boss Appeared! - 2ª Temporada.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/im-looking-for-zombie/15646",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15646%2Flarge-91b1e205ff7b.webp&w=3840&q=75",
-        "time": "12:00",
-        "episodio_atual": "5",
-        "tags_generos": "Comédia, Aventura",
-        "titulo": "#Zombie Sagashitemasu",
-        "titulo_en": "#I'm Looking For Zombie",
-        "titulo_jp": "#ゾンビさがしてます",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00383996/im-looking-for-a-zombie",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\#I'm Looking For Zombie.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/the-seven-knights-of-the-marronnier-kingdom/24854",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24854%2Flarge-446d1653e51c.webp&w=3840&q=75",
         "time": "12:00",
@@ -822,6 +804,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\The Seven Knights of the Marronnier Kingdom.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/im-looking-for-zombie/15646",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15646%2Flarge-91b1e205ff7b.webp&w=3840&q=75",
+        "time": "12:00",
+        "episodio_atual": "5",
+        "tags_generos": "Comédia, Aventura",
+        "titulo": "#Zombie Sagashitemasu",
+        "titulo_en": "#I'm Looking For Zombie",
+        "titulo_jp": "#ゾンビさがしてます",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00383996/im-looking-for-a-zombie",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\#I'm Looking For Zombie.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/black-clover-2a-temporada/5580",
