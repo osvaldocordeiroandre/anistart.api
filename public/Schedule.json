@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T23:20:36.858Z",
+  "updatedAt": "2026-10-30T09:40:57.957Z",
   "schedule": {
     "Monday": [
       {
@@ -229,24 +229,6 @@
     ],
     "Wednesday": [
       {
-        "page": "https://www.aniquim.com.br/anime/the-worlds-strongest-witch/24776",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24776%2Flarge-fde88e13f98d.webp&w=3840&q=75",
-        "time": "10:00",
-        "episodio_atual": "5",
-        "tags_generos": "Fantasia, Comédia, Aventura",
-        "titulo": "Sekai Saikyou no Majo, Hajimemashita",
-        "titulo_en": "The World's Strongest Witch",
-        "titulo_jp": "世界最強の魔女、始めました",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00384009",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\The World's Strongest Witch.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/sasaki-and-peeps-2a-temporada/19913",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F19913%2Flarge-2e38c30dbd25.webp&w=3840&q=75",
         "time": "10:00",
@@ -263,6 +245,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\Sasaki and Peeps - 2ª Temporada.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/the-worlds-strongest-witch/24776",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24776%2Flarge-fde88e13f98d.webp&w=3840&q=75",
+        "time": "10:00",
+        "episodio_atual": "5",
+        "tags_generos": "Fantasia, Comédia, Aventura",
+        "titulo": "Sekai Saikyou no Majo, Hajimemashita",
+        "titulo_en": "The World's Strongest Witch",
+        "titulo_jp": "世界最強の魔女、始めました",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00384009",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\The World's Strongest Witch.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/the-detective-is-already-dead-2a-temporada/7562",
@@ -372,7 +372,7 @@
         "page": "https://www.aniquim.com.br/anime/fx-fighter-kurumi-chan/18112",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F18112%2Flarge-0096215c1836.webp&w=3840&q=75",
         "time": "09:30",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Drama, Suspense, Slice of Life",
         "titulo": "FX Senshi Kurumi-chan",
         "titulo_en": "FX Fighter Kurumi-chan",
@@ -390,7 +390,7 @@
         "page": "https://www.aniquim.com.br/anime/parede-de-gelo-2a-temporada/24987",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24987%2Flarge-5d480bfc2707.webp&w=3840&q=75",
         "time": "12:30",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Drama, Comédia, Romance",
         "titulo": "Koori no Jouheki 2nd Season",
         "titulo_en": "Parede de Gelo - 2ª Temporada",
@@ -408,7 +408,7 @@
         "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-ba550ec45e42.webp&w=3840&q=75",
         "time": "13:00",
-        "episodio_atual": "4",
+        "episodio_atual": "5",
         "tags_generos": "Slice of Life",
         "titulo": "Tetsuryou! Meet with Tetsudou Musume",
         "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
@@ -420,7 +420,7 @@
         "page": "https://www.aniquim.com.br/anime/the-exiled-heavy-knight-knows-how-to-game-the-system/20368",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20368%2Flarge-584d7ce331f8.webp&w=3840&q=75",
         "time": "13:00",
-        "episodio_atual": "18",
+        "episodio_atual": "19",
         "tags_generos": "Ação, Fantasia, Aventura",
         "titulo": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
         "titulo_en": "The Exiled Heavy Knight Knows How to Game the System",
@@ -438,7 +438,7 @@
         "page": "https://www.aniquim.com.br/anime/with-vengeance-sincerely-your-broken-saintess-2a-temporada/24800",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24800%2Flarge-1d735350dd1c.webp&w=3840&q=75",
         "time": "13:00",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Fantasia, Drama, Romance",
         "titulo": "Kizu darake Seijo yori Houfuku wo Komete Season 2",
         "titulo_en": "With Vengeance, Sincerely, Your Broken Saintess - 2ª Temporada",
@@ -450,7 +450,7 @@
         "page": "https://www.aniquim.com.br/anime/the-iceblade-sorcerer-shall-rule-the-world-ii-2a-temporada/24839",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24839%2Flarge-de9223aebabe.webp&w=3840&q=75",
         "time": "14:00",
-        "episodio_atual": "4",
+        "episodio_atual": "5",
         "tags_generos": "Ação, Fantasia",
         "titulo": "Hyouken no Majutsushi ga Sekai wo Suberu II",
         "titulo_en": "The Iceblade Sorcerer Shall Rule the World II - 2ª Temporada",
@@ -569,24 +569,6 @@
         "local_image_path": "imagens_animes\\A Certain Dark Item.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/firefly-wedding/20144",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20144%2Flarge-a80bcd67c760.webp&w=3840&q=75",
-        "time": "13:00",
-        "episodio_atual": "4",
-        "tags_generos": "Romance",
-        "titulo": "Hotaru no Yomeiri",
-        "titulo_en": "Firefly Wedding",
-        "titulo_jp": "ホタルの嫁入り",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00383999",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Firefly Wedding.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/tougen-anki-arco-das-cataratas-de-kegon-em-nikko/10719",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F10719%2Flarge-ee65b6a822be.webp&w=3840&q=75",
         "time": "13:00",
@@ -618,6 +600,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\Tougen Anki Arco das Cataratas de Kegon em Nikko.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/firefly-wedding/20144",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20144%2Flarge-a80bcd67c760.webp&w=3840&q=75",
+        "time": "13:00",
+        "episodio_atual": "4",
+        "tags_generos": "Romance",
+        "titulo": "Hotaru no Yomeiri",
+        "titulo_en": "Firefly Wedding",
+        "titulo_jp": "ホタルの嫁入り",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00383999",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Firefly Wedding.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/please-excuse-my-younger-brothers/12687",
