@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-02T23:59:10.435Z",
+  "updatedAt": "2026-11-03T06:29:47.870Z",
   "schedule": {
     "Monday": [
       {
         "page": "https://www.aniquim.com.br/anime/hello-i-am-a-witch-and-my-crush-wants-me-to-make-a-love-potion/17016",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F17016%2Flarge-014f21a184ce.webp&w=3840&q=75",
         "time": "09:30",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Fantasia, Comédia, Romance",
         "titulo": "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu.",
         "titulo_en": "Hello, I Am a Witch and My Crush Wants Me to Make a Love Potion!",
@@ -24,7 +24,7 @@
         "page": "https://www.aniquim.com.br/anime/so-whats-wrong-with-getting-reborn-as-a-goblin/20619",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20619%2Flarge-d1fe582d27f6.webp&w=3840&q=75",
         "time": "10:00",
-        "episodio_atual": "6",
+        "episodio_atual": "7",
         "tags_generos": "Fantasia",
         "titulo": "Tensei Goblin dakedo Shitsumon Aru?",
         "titulo_en": "So What's Wrong with Getting Reborn as a Goblin?",
@@ -41,7 +41,7 @@
       {
         "page": "https://www.aniquim.com.br/anime/psyren/8642",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F8642%2Flarge-91cc62fe2812.webp&w=3840&q=75",
-        "time": "8 nov",
+        "time": "12:30",
         "episodio_atual": "5",
         "tags_generos": "Ação, Ficção Científica, Suspense",
         "titulo": "Psyren",
@@ -60,7 +60,7 @@
         "page": "https://www.aniquim.com.br/anime/magical-girl-raising-project-restart/21615",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F21615%2Flarge-a45153d93889.webp&w=3840&q=75",
         "time": "14:30",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Ação, Fantasia, Drama",
         "titulo": "Mahou Shoujo Ikusei Keikaku: Restart",
         "titulo_en": "Magical Girl Raising Project Restart",
