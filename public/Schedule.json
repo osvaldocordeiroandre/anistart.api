@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T21:30:28.947Z",
+  "updatedAt": "2026-11-05T09:02:00.006Z",
   "schedule": {
     "Monday": [
       {
@@ -232,7 +232,7 @@
         "page": "https://www.aniquim.com.br/anime/the-worlds-strongest-witch/24776",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24776%2Flarge-fde88e13f98d.webp&w=3840&q=75",
         "time": "10:00",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Fantasia, Comédia, Aventura",
         "titulo": "Sekai Saikyou no Majo, Hajimemashita",
         "titulo_en": "The World's Strongest Witch",
@@ -250,7 +250,7 @@
         "page": "https://www.aniquim.com.br/anime/sasaki-and-peeps-2a-temporada/19913",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F19913%2Flarge-2e38c30dbd25.webp&w=3840&q=75",
         "time": "10:00",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Ação, Fantasia, Drama",
         "titulo": "Sasaki to Pii-chan Season 2",
         "titulo_en": "Sasaki and Peeps - 2ª Temporada",
@@ -268,7 +268,7 @@
         "page": "https://www.aniquim.com.br/anime/the-detective-is-already-dead-2a-temporada/7562",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F7562%2Flarge-fe3036541aca.webp&w=3840&q=75",
         "time": "10:30",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Drama, Comédia, Romance",
         "titulo": "Tantei wa Mou, Shindeiru. Season 2",
         "titulo_en": "The Detective Is Already Dead - 2ª Temporada",
@@ -286,7 +286,7 @@
         "page": "https://www.aniquim.com.br/anime/guerreiras-magicas-de-rayearth-2026/15897",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15897%2Flarge-11ad35bdda51.webp&w=3840&q=75",
         "time": "12:15",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Fantasia, Aventura",
         "titulo": "Magic Knight Rayearth (2026)",
         "titulo_en": "Guerreiras Mágicas de Rayearth (2026)",
@@ -304,7 +304,7 @@
         "page": "https://www.aniquim.com.br/anime/reincarnated-as-a-sword-2a-temporada/6281",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F6281%2Flarge-5690f108c48e.webp&w=3840&q=75",
         "time": "12:30",
-        "episodio_atual": "6",
+        "episodio_atual": "7",
         "tags_generos": "Ação, Fantasia, Aventura",
         "titulo": "Tensei shitara Ken deshita II",
         "titulo_en": "Reincarnated as a Sword - 2ª Temporada",
@@ -316,7 +316,7 @@
         "page": "https://www.aniquim.com.br/anime/the-prince-of-tennis-ii-u-17-world-cup-final-member-selection-match/2096",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F2096%2Flarge-fc2912687a6f.webp&w=3840&q=75",
         "time": "13:00",
-        "episodio_atual": "6",
+        "episodio_atual": "7",
         "tags_generos": "Esportes",
         "titulo": "Shin Tennis no Oujisama: U-17 World Cup - Kesshou Member Ketteisen",
         "titulo_en": "The Prince of Tennis II: U-17 World Cup - Final Member Selection Match",
@@ -334,7 +334,7 @@
         "page": "https://www.aniquim.com.br/anime/dandivine/24865",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24865%2Flarge-b532196a6024.webp&w=3840&q=75",
         "time": "14:00",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Ação",
         "titulo": "Juuou Mujin Dandivine",
         "titulo_en": "Dandivine",
@@ -352,7 +352,7 @@
         "page": "https://www.aniquim.com.br/anime/a-returners-magic-should-be-special-2a-temporada/14740",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F14740%2Flarge-340629448ab0.webp&w=3840&q=75",
         "time": "14:15",
-        "episodio_atual": "5",
+        "episodio_atual": "6",
         "tags_generos": "Ação, Fantasia",
         "titulo": "Kikansha no Mahou wa Tokubetsu desu 2nd Season",
         "titulo_en": "A Returner's Magic Should Be Special - 2ª Temporada",
@@ -405,18 +405,6 @@
         "local_image_path": "imagens_animes\\Parede de Gelo - 2ª Temporada.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-ba550ec45e42.webp&w=3840&q=75",
-        "time": "13:00",
-        "episodio_atual": "5",
-        "tags_generos": "Slice of Life",
-        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
-        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/the-exiled-heavy-knight-knows-how-to-game-the-system/20368",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20368%2Flarge-584d7ce331f8.webp&w=3840&q=75",
         "time": "13:00",
@@ -433,6 +421,18 @@
           }
         ],
         "local_image_path": "imagens_animes\\The Exiled Heavy Knight Knows How to Game the System.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/tetsuryou-meet-with-tetsudou-musume/775",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F775%2Flarge-ba550ec45e42.webp&w=3840&q=75",
+        "time": "13:00",
+        "episodio_atual": "5",
+        "tags_generos": "Slice of Life",
+        "titulo": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_en": "Tetsuryou! Meet with Tetsudou Musume",
+        "titulo_jp": "てつりょー！meet with 鉄道むすめ",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\Tetsuryou! Meet with Tetsudou Musume.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/with-vengeance-sincerely-your-broken-saintess-2a-temporada/24800",
@@ -463,6 +463,18 @@
           }
         ],
         "local_image_path": "imagens_animes\\The Iceblade Sorcerer Shall Rule the World II - 2ª Temporada.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/welsh-and-shedar/25067",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F25067%2Flarge-c3267277e845.webp&w=3840&q=75",
+        "time": "16:00",
+        "episodio_atual": "1",
+        "tags_generos": "Fantasia",
+        "titulo": "Aoki Denshou Welsh & Shedar",
+        "titulo_en": "Welsh & Shedar",
+        "titulo_jp": "蒼き伝承 ウェルシュ＆シェダー",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\Welsh & Shedar.jpg"
       }
     ],
     "Friday": [
@@ -548,18 +560,6 @@
         "titulo_jp": "デモンズ・クレスト",
         "plataformas": [],
         "local_image_path": "imagens_animes\\Demons' Crest.jpg"
-      },
-      {
-        "page": "https://www.aniquim.com.br/anime/welsh-and-shedar/25067",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F25067%2Flarge-c3267277e845.webp&w=3840&q=75",
-        "time": "09:30",
-        "episodio_atual": "6",
-        "tags_generos": "Fantasia",
-        "titulo": "Aoki Denshou Welsh & Shedar",
-        "titulo_en": "Welsh & Shedar",
-        "titulo_jp": "蒼き伝承 ウェルシュ＆シェダー",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\Welsh & Shedar.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/diarios-de-uma-apotecaria-3a-temporada-parte-1/20237",
@@ -683,6 +683,18 @@
           }
         ],
         "local_image_path": "imagens_animes\\Tokyo Revengers War of the Three Titans Arc.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/welsh-and-shedar/25067",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F25067%2Flarge-c3267277e845.webp&w=3840&q=75",
+        "time": "16:00",
+        "episodio_atual": "2",
+        "tags_generos": "Fantasia",
+        "titulo": "Aoki Denshou Welsh & Shedar",
+        "titulo_en": "Welsh & Shedar",
+        "titulo_jp": "蒼き伝承 ウェルシュ＆シェダー",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\Welsh & Shedar.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/ghost-meets-gal/25041",
