@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T19:55:28.454Z",
+  "updatedAt": "2026-11-07T23:28:13.435Z",
   "schedule": {
     "Monday": [
       {
@@ -754,7 +754,7 @@
       {
         "page": "https://www.aniquim.com.br/anime/detetive-conan/6722",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F6722%2Flarge-0eab13f61e85.webp&w=3840&q=75",
-        "time": "08:30",
+        "time": "09:30",
         "episodio_atual": "1219",
         "tags_generos": "Drama, Comédia, Aventura",
         "titulo": "Meitantei Conan",
@@ -919,18 +919,6 @@
         "local_image_path": "imagens_animes\\Magical Explorer.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/even-the-student-council-has-its-holes/10946",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F10946%2Flarge-f1479b59fcaf.webp&w=3840&q=75",
-        "time": "14:00",
-        "episodio_atual": "6",
-        "tags_generos": "Comédia, Romance, Slice of Life",
-        "titulo": "Seitokai ni mo Ana wa Aru!",
-        "titulo_en": "Even the Student Council Has Its Holes!",
-        "titulo_jp": "生徒会にも穴はある！",
-        "plataformas": [],
-        "local_image_path": "imagens_animes\\Even the Student Council Has Its Holes!.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/ranma-2024-3a-temporada/722",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F722%2Flarge-df1d01887b6c.webp&w=3840&q=75",
         "time": "14:00",
@@ -965,6 +953,18 @@
           }
         ],
         "local_image_path": "imagens_animes\\Horror Collector.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/even-the-student-council-has-its-holes/10946",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F10946%2Flarge-f1479b59fcaf.webp&w=3840&q=75",
+        "time": "15:00",
+        "episodio_atual": "6",
+        "tags_generos": "Comédia, Romance, Slice of Life",
+        "titulo": "Seitokai ni mo Ana wa Aru!",
+        "titulo_en": "Even the Student Council Has Its Holes!",
+        "titulo_jp": "生徒会にも穴はある！",
+        "plataformas": [],
+        "local_image_path": "imagens_animes\\Even the Student Council Has Its Holes!.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/magic-repo-man/9389",
