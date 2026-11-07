@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T16:57:36.802Z",
+  "updatedAt": "2026-11-07T02:37:30.659Z",
   "schedule": {
     "Monday": [
       {
@@ -465,6 +465,24 @@
         "local_image_path": "imagens_animes\\The Iceblade Sorcerer Shall Rule the World II - 2ª Temporada.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/welsh-and-shedar/25067",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F25067%2Flarge-c3267277e845.webp&w=3840&q=75",
+        "time": "16:00",
+        "episodio_atual": "3",
+        "tags_generos": "Fantasia",
+        "titulo": "Aoki Denshou Welsh & Shedar",
+        "titulo_en": "Welsh & Shedar",
+        "titulo_jp": "蒼き伝承 ウェルシュ＆シェダー",
+        "plataformas": [
+          {
+            "nome": "YouTube",
+            "link_streaming": "https://www.youtube.com/watch?v=Y86qpxydosM&list=PLQQZ_5MCShus&index=3",
+            "icone_svg": "<svg width=\"512\" height=\"512\" viewBox=\"0 0 512 512\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>YouTube</title><rect width=\"512\" height=\"512\" rx=\"76.8\" fill=\"#ed1d24\"></rect><path fill=\"#fff\" d=\"M427 169c-4-15-17-27-32-31-34-9-239-10-278 0-15 4-28 16-32 31-9 38-10 135 0 174 4 15 17 27 32 31 36 10 241 10 278 0 15-4 28-16 32-31 9-36 9-137 0-174\"></path><path fill=\"#ed1d24\" d=\"M220 203v106l93-53\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Welsh & Shedar.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/expelled-from-paradise-resonance/7188",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F7188%2Flarge-5a9207022c51.webp&w=3840&q=75",
         "time": "21:00",
@@ -570,7 +588,7 @@
       {
         "page": "https://www.aniquim.com.br/anime/diarios-de-uma-apotecaria-3a-temporada-parte-1/20237",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20237%2Flarge-19383639bfc7.webp&w=3840&q=75",
-        "time": "11:30",
+        "time": "12:30",
         "episodio_atual": "6",
         "tags_generos": "Drama, Comédia, Romance",
         "titulo": "Kusuriya no Hitorigoto 3rd Season",
