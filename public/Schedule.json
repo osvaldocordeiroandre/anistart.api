@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-23T21:25:35.350Z",
+  "updatedAt": "2026-11-24T05:27:02.776Z",
   "schedule": {
     "Monday": [
       {
         "page": "https://www.aniquim.com.br/anime/hello-i-am-a-witch-and-my-crush-wants-me-to-make-a-love-potion/17016",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F17016%2Flarge-014f21a184ce.webp&w=3840&q=75",
         "time": "09:30",
-        "episodio_atual": "8",
+        "episodio_atual": "9",
         "tags_generos": "Fantasia, Comédia, Romance",
         "titulo": "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu.",
         "titulo_en": "Hello, I Am a Witch and My Crush Wants Me to Make a Love Potion!",
@@ -24,7 +24,7 @@
         "page": "https://www.aniquim.com.br/anime/so-whats-wrong-with-getting-reborn-as-a-goblin/20619",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20619%2Flarge-d1fe582d27f6.webp&w=3840&q=75",
         "time": "10:00",
-        "episodio_atual": "8",
+        "episodio_atual": "9",
         "tags_generos": "Fantasia, Drama, Comédia",
         "titulo": "Tensei Goblin dakedo Shitsumon Aru?",
         "titulo_en": "So What's Wrong with Getting Reborn as a Goblin?",
@@ -41,7 +41,7 @@
       {
         "page": "https://www.aniquim.com.br/anime/psyren/8642",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F8642%2Flarge-91cc62fe2812.webp&w=3840&q=75",
-        "time": "29 nov",
+        "time": "11:30",
         "episodio_atual": "7",
         "tags_generos": "Ação, Ficção Científica, Suspense",
         "titulo": "Psyren",
@@ -60,7 +60,7 @@
         "page": "https://www.aniquim.com.br/anime/magical-girl-raising-project-restart/21615",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F21615%2Flarge-a45153d93889.webp&w=3840&q=75",
         "time": "14:30",
-        "episodio_atual": "8",
+        "episodio_atual": "9",
         "tags_generos": "Ação, Fantasia, Drama",
         "titulo": "Mahou Shoujo Ikusei Keikaku: Restart",
         "titulo_en": "Magical Girl Raising Project Restart",
@@ -628,6 +628,24 @@
         "local_image_path": "imagens_animes\\A Certain Dark Item.jpg"
       },
       {
+        "page": "https://www.aniquim.com.br/anime/firefly-wedding/20144",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20144%2Flarge-a80bcd67c760.webp&w=3840&q=75",
+        "time": "13:00",
+        "episodio_atual": "8",
+        "tags_generos": "Ação, Romance",
+        "titulo": "Hotaru no Yomeiri",
+        "titulo_en": "Firefly Wedding",
+        "titulo_jp": "ホタルの嫁入り",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00383999",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Firefly Wedding.jpg"
+      },
+      {
         "page": "https://www.aniquim.com.br/anime/tougen-anki-arco-das-cataratas-de-kegon-em-nikko/10719",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F10719%2Flarge-ee65b6a822be.webp&w=3840&q=75",
         "time": "13:00",
@@ -659,24 +677,6 @@
           }
         ],
         "local_image_path": "imagens_animes\\Tougen Anki Arco das Cataratas de Kegon em Nikko.jpg"
-      },
-      {
-        "page": "https://www.aniquim.com.br/anime/firefly-wedding/20144",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F20144%2Flarge-a80bcd67c760.webp&w=3840&q=75",
-        "time": "13:00",
-        "episodio_atual": "8",
-        "tags_generos": "Ação, Romance",
-        "titulo": "Hotaru no Yomeiri",
-        "titulo_en": "Firefly Wedding",
-        "titulo_jp": "ホタルの嫁入り",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GT00383999",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Firefly Wedding.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/please-excuse-my-younger-brothers/12687",
@@ -1087,24 +1087,6 @@
         "local_image_path": "imagens_animes\\Mission Yozakura Family - 2ª Temporada Parte 2.jpg"
       },
       {
-        "page": "https://www.aniquim.com.br/anime/ace-of-diamond-act-ii-2a-temporada-parte-2/24976",
-        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24976%2Flarge-238dba0abea9.webp&w=3840&q=75",
-        "time": "06:00",
-        "episodio_atual": "8",
-        "tags_generos": "Esportes",
-        "titulo": "Diamond no Ace: Act II Second Season Part 2",
-        "titulo_en": "Ace of Diamond Act II - 2ª Temporada Parte 2",
-        "titulo_jp": "ダイヤのA actⅡ Second Season 第2クール",
-        "plataformas": [
-          {
-            "nome": "Crunchyroll",
-            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GYX0MZ58R",
-            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
-          }
-        ],
-        "local_image_path": "imagens_animes\\Ace of Diamond Act II - 2ª Temporada Parte 2.jpg"
-      },
-      {
         "page": "https://www.aniquim.com.br/anime/aoashi-2a-temporada/15160",
         "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F15160%2Flarge-a33a7521223c.webp&w=3840&q=75",
         "time": "06:00",
@@ -1121,6 +1103,24 @@
           }
         ],
         "local_image_path": "imagens_animes\\Aoashi - 2ª Temporada.jpg"
+      },
+      {
+        "page": "https://www.aniquim.com.br/anime/ace-of-diamond-act-ii-2a-temporada-parte-2/24976",
+        "image_url": "/_next/image?url=https%3A%2F%2Fassets.aniquim.com.br%2Fanimes%2F24976%2Flarge-238dba0abea9.webp&w=3840&q=75",
+        "time": "06:00",
+        "episodio_atual": "8",
+        "tags_generos": "Esportes",
+        "titulo": "Diamond no Ace: Act II Second Season Part 2",
+        "titulo_en": "Ace of Diamond Act II - 2ª Temporada Parte 2",
+        "titulo_jp": "ダイヤのA actⅡ Second Season 第2クール",
+        "plataformas": [
+          {
+            "nome": "Crunchyroll",
+            "link_streaming": "https://www.crunchyroll.com/pt-br/series/GYX0MZ58R",
+            "icone_svg": "<svg width=\"100\" height=\"100\" viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" class=\"size-7 rounded-full\"><title>Crunchyroll (BR)</title><rect width=\"100\" height=\"100\" fill=\"#F1E6C6\"></rect><path fill=\"#FF6600\" d=\"M95.861,43.517c-7.059-44.746-67.18-53.838-87.55-13.491c-14.094,28.783,5.422,62.6,37.287,65.569c-0.246,0.138,11.835,0.216,5.657-0.32c-2.384-0.191-5.999-0.995-8.814-1.959C6.051,80.491,6.181,30.216,42.617,17.612c23.974-8.48,50.92,8.586,53.287,33.766c0.096,1.138,0.173,1.413,0.319,1.15C96.493,52.047,96.261,46.285,95.861,43.517z\"></path><path fill=\"#FF6600\" d=\"M88.716,53.078c-8.249,8.928-23.788,3.74-25.163-8.21c-0.951-6.583,3.482-13.149,9.804-15.499C26.439,7.838,3.291,82.524,55.402,89.897C76.571,91.661,93.966,72.754,90.013,52C89.961,51.915,89.377,52.4,88.716,53.078z\"></path></svg>"
+          }
+        ],
+        "local_image_path": "imagens_animes\\Ace of Diamond Act II - 2ª Temporada Parte 2.jpg"
       },
       {
         "page": "https://www.aniquim.com.br/anime/reborn-as-a-space-mercenary-i-woke-up-piloting-the-strongest-starship/3334",
